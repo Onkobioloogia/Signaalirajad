@@ -147,7 +147,7 @@ $\alpha 6\beta 4$ | laminiin (epiteliaalsed hemidesmosoomid)
 [Ligand-binding specificities of human integrins](http://genomebiology.com/2007/8/5/215/table/T2)
 
 ---&twocol
-## Integriinid organiseerivad adhesioonid
+## Integriinid organiseerivad raku adhesioonid
 
 Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali üle kandvad funktsioonid.
 
