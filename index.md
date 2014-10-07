@@ -173,17 +173,67 @@ Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali 
 <img src="http://ars.els-cdn.com/content/image/1-s2.0-S1535610804002077-gr4.jpg" style="width: 380px;"/>
 
 
-
 ---.segue .dark .nobackground
-## Signaalirajad
+## RAS-ist
 
+---&twocol
+## Ras valgud
 
+***=left
+
+- **Ras valgud toimivad GDP/GTP-sõltuvate lülititena.**
+- Ras-GDP: inaktiivne/Ras-GTP: aktiivne.
+- Normaalselt on rakkudes Ras seotud GDP-ga ja  mitteaktiivne.
+- Rakuvälised stiimulid (nt. TGF-$\alpha$) põhjustavad transientse Ras-i aktivatsiooni.
+    
+***=right
+
+<img src="http://www.frontiersin.org/files/Articles/57883/fimmu-04-00239-HTML/image_m/fimmu-04-00239-g001.jpg" style="width: 460px;"/>
 
 ---
-## Ras
+## Mutantsed Ras valgud on GAP-tundetud
 
+- **GDP$\leftrightarrow$GTP vahetust stimuleerivad GEF ja GAP valgud**
+    - **GEF** (*guanine nucleotide exchange factor*): laadib Ras-i uue GTP-ga
+    - **GAP** (*GTPase activating factor*): hüdrolüüsib GTP.
+- Ras-i endogeenne GTP hüdrolüüs 100'000$\times$ madalama kiirusega GAP-vahendatud hüdrolüüsist!
+- **Vähkides esinevad Ras mutatsioonid koodonites 12, 13 ja 61 rikuvad ära GAP-valkude seostumise.**
 
+---&twocol
+## Ras isovormid
 
+***=left
+
+- Ras-i on kolm geeni: **K-Ras, H-Ras, N-Ras**
+- K-Ras-il on kaks splaissingu isovormi:K-Ras-4A/B
+- Ras valkude G-domääni struktuurid on identsed, 
+- kuid C-terminaalsed hüpervariaablid domäänid erinevad.
+
+***=right
+
+![](http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr3.jpg)
+
+---&twocol
+## Ras isovormide sagedus vähis
+
+Ras mutatsioonid on sagedased. K-Ras on enamasti suveräänne liider (va. N-RAS melanoomis).
+
+Primaarne kude |  KRAS (%)	| HRAS (%)	| NRAS (%) |	Kokku (%)
+---------------|------------|-----------|----------|----------
+pankreas |	71	|0	| <1 |	71
+koolon	| 35 |	1 |	6 |	42
+peensool	| 35 |	0	| <1 |	35
+sapijuha	| 26	| 0 |	2	| 28
+endomeetrium	|17	| <1	| 5	| 22
+kops	| 19	| <1 |	1	| 20
+nahk (melanoom)	| 1	| 1 |	18 |	20
+emakakael	| 8	| 9	| 2	| 19
+kusejuha	| 5	| 10	| 1	| 16
+
+Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibromiini** (Ras-GAP) somaatiliste deletsioonide: 14% glioblastoom, 13-14% melanoom, 8-10% kopsu adenokartsinoom, jne.
+
+---.segue .dark .nobackground
+## Raku signaalirajad
 
 ---
 ## Varajased geenid
