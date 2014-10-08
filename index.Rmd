@@ -284,11 +284,20 @@ KC | rakuväline | tsütokiin
 - Kasvufaktorite retseptoritest lähtuva signalisatsiooni lahendamine sai alguse *Drosophila* geneetikast.
 - *Drosophila* silma ommatiidide arengut reguleeriv geen *sevenless* osutus türosiinkinaas retseptoriks, EGF retseptori homoloogiks.
 - Edasine geneetiline komplementatsioon identifitseeris signaalirajas 'allpool' toimiva geeni ***son of sevenless*, sos**, mis osutus pärmi G valkude guaniin nuleotiidi vahetus faktorile (GEF) sarnaseks valguks.
-- Lisaks identifiseeriti *Drosophilas* geneetiliselt sevenless ja sos vahel asuvad adaptorvalgud **Shc, Grb2**.
+
 
 ***=right
 
 <img src="http://www.cell.com/cms/attachment/521363/3549597/gr5.jpg" style="width: 360px;"/>
+
+---
+## Src homoloogilisi domääne sisaldavad valgud signaalirajas
+
+- Lisaks identifiseeriti *Drosophilas* geneetiliselt sevenless ja sos vahel asuvad *Src homology* domääne sisaldavad valgud **Shc, Grb2**.
+    - **SH2, fosfotürosüül peptiide siduv domään**
+avastati kui Src homoloogia Fujinami sarkoomi viiruse fes onkovalgus (tsütoplasma türosiin kinaas);
+    - **SH3, proliinirikkaid järjestusi siduv domään**
+avastati kui CT10 linnu sarkoomiviiruse onkogeen crk. Crk on funktsionaalselt adaptervalk.
 
 ---
 ## Mis on sellise signaaliaja biokeemiline alus
@@ -298,4 +307,59 @@ KC | rakuväline | tsütokiin
 ---
 ## Fosfotürosiinid kontrollivad tsütoplasma signaalvalkude lokalisatsiooni
 
+Kaks alternatiivset hüpoteesi kuidas RTK fosforülatsioon tekitab signalisatsiooni
 
+- **fosfo-RTK fosforüleerib ja aktiveerib rakus oma substraate.**
+      - aktiveeritud substraadid signaliseerivad,
+      - RTK fosforülatsioon sekundaarse tähendusega.
+- **fosfo-RTK seob teisi signaalvalke ja muudab nende lokalisatsiooni.**
+      - teiste signaalvalkude sisemine aktiivsus ei muutu.
+      - moodustuvad signaliseerimiseks soodsad valgukompleksid.
+
+---&twocol
+## Valkude dokkimiskohad
+
+***=right
+
+- **SH2** fosfotürosiin valkude dokkimiskoht
+    - inimese genoomis 121 SH2 domääni 115 valgus.
+- **SH3** proliinirikkaid järjestusi sisaldavate valkude dokkimiskoht
+    - inimese genoomis ~300 SH3 domääni.
+- SH2/3 pasteeritud väga erinevatesse valgulistesse kontekstidesse.
+    - puhtalt adaptorvalgud ilma katalüütiliste domäänideta
+    - katalüütilisi domääne sisaldavad valgud.
+ 
+***=left
+
+![sh2](http://www.nature.com/nrm/journal/v3/n3/images/nrm759-f1.gif)
+
+---
+## Lisaks SH2/SH3 domäänile ka palju teisi
+
+~ 32 erinevat domääni
+
+
+![dokid](http://www.sciencemag.org/content/300/5618/445/F1.medium.gif)
+
+
+---
+## Olulisemad mitogeense signalisatsiooniga seotud dokkimisdomäänid
+
+Domään | Ligand | Domääni kandvaid valke
+-------|--------|-----------------------
+SH2 | fosfotürosiin | Src (kinaas), Grb2 (adapter), Shc (adapter), SHP2 (fosfataas), Cbl (ubikvitiini ligaas)
+PTB | fosfotürosiin | Shc, IRS-1 (insuliini RTK adapter)
+SH3 | proliinirikkad järestused | Src, Crk (adapter), Grb2, Cdc25 (CDK fosfataas), Bad (apoptoosi regulator), Raf (ser/thr kinaas), PKC (*protein kinase C*, ser/thr kinaas) 
+Bromo | atsetüleeritud lüsiin | P/CAF (transkriptsiooni kofaktor), kromatiinivalgud
+PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
+
+---&twocol
+## RTK tsütoplasma domään sisaldab fosfo sidumissaite erinevatele valkudele
+
+***=left
+
+<img src="nrm1960-f4.jpg" style="width: 460px;"/>
+
+***=right
+
+![](1-s2.0-S0968000412001934-gr3.jpg)
