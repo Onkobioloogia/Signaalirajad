@@ -423,5 +423,36 @@ Neli põhilist MAPKKK–MAPKK–MAPK kinaasset rada.
 
 <p style="font-size:12px">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</p>
 
+---&twocol
+## Fosfatidüülinositool 3 kinaas, PI3K rada
+
+***=left
+
+Ras - PI3K$\gamma$ kompleks
+
+![](RasPI3K.jpg)
+
+
+***=right
+
+Ras seostumisel PI3K aktiveeritakse selle katalüütline domään, mis hakkab fosforüleerima $PIP{_2}$ fosfolipiide $\rightarrow$ $PIP{_3}$.
+- Akt/PKB seostub/värvatakse üle oma plekstriin-homoloogilise (PH) domääni plasmamebraanile.
+
 ---
-## 
+## Akt/PKB rada mõjutab rakkude ellujäämist, jagunemist ja kasvu
+
+Bioloogiline effekt | Akt/PKB substraat | Funktsionaalne tagajärg
+--------------------|-------------------|-----------------------
+Anti-apoptootiline |                    | 
+                   | Bad (pro-apopootline) | inhibitsioon
+                   | kaspaas-9 (pro-apopootline) | inhibitsioon
+                   | I$\kappa$B kinaas (anti-apopootline) | aktivatsioon
+                   | FOXO1 TF (pro-apopootline) | inhibitsioon
+                   | Mdm2 (anti-apopootline) | aktivatsioon
+Rakkude jagunemine |                     |       
+                   | GSK-3$\beta$ (anti-proliferatiivne) |  inhibitsioon
+                   | FOXO4 TF (anti-proliferatiivne) | inhibitsioon
+                   | p21 (anti-proliferatiivne) | inhibitsioon
+Kasv (suurus) |            |
+              | Tsc2 (kasvu pidurdav) | inhibitsioon
+              
