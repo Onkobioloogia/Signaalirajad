@@ -409,11 +409,11 @@ Ras toimib läbi oma effektorite:
 ---
 ## Imetajate MAPK rajad
 Neli põhilist MAPKKK–MAPKK–MAPK kinaasset rada. 
-- ERK rada aktiveeritkse vastusena kasvufaktorite stimlatsioonile, 
+- ERK rada aktiveeritkse vastusena kasvufaktorite stimulatsioonile, 
 - JNK, p38 and ERK5 rada keskkonna stress, k.a. osmootne shokk ja ioniseeriv kiirgus. 
-- Paljud MAPK substraadid on transkriptioonifacktorid.
+- Paljud MAPK substraadid on transkriptioonifacktorid (Ets, Elk-1 SAP-1) aga ka valgusüntees üle Mnk1 $\rightarrow$ eIF4E.
 
-<img src="http://www.nature.com/onc/journal/v26/n22/images/1210422f2.jpg" style="width: 420px;"/>
+<img src="http://www.nature.com/onc/journal/v26/n22/images/1210422f2.jpg" style="width: 400px;"/>
 <p style="font-size:12px">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</p>
 
 ---
