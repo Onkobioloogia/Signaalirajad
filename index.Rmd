@@ -438,6 +438,8 @@ Ras - PI3K$\gamma$ kompleks
 Ras seostumisel PI3K aktiveeritakse selle katalüütline domään, mis hakkab fosforüleerima $PIP{_2}$ fosfolipiide $\rightarrow$ $PIP{_3}$.
 - Akt/PKB seostub/värvatakse üle oma plekstriin-homoloogilise (PH) domääni plasmamebraanile.
 
+![](plextr.jpg)
+
 ---
 ## Akt/PKB rada mõjutab rakkude ellujäämist, jagunemist ja kasvu
 
@@ -455,4 +457,30 @@ Rakkude jagunemine |                     |
                    | p21 (anti-proliferatiivne) | inhibitsioon
 Kasv (suurus) |            |
               | Tsc2 (kasvu pidurdav) | inhibitsioon
-              
+
+
+
+---
+## Mutual exclusivity modules human breast tumours
+
+![](http://www.nature.com/nature/journal/v490/n7418/images_article/nature11412-f4.2.jpg)
+
+
+---
+# Genetic Alterations in the PI3K/Akt Pathway in Cancer
+
+Gene | Type of Alteration	| Tumor Lineage
+------------------|----------------------|------------------
+PTEN |	Loss-of-function by somatic mutation |	Brain, prostate, endometrium
+     | Germline mutation (in 80% of Cowden Disease)	| Cowden disease: Increased risk for breast, thyroid, genitourinary and endometrial cancer
+ | Promoter methylation	| Melanoma, breast, colon
+ | Loss of heterozygosity	| Prostate, melanoma, thyroid, breast, pancreas, ovary, brain, bladder, endometrium, cervix, head and neck, kidney, lung
+p110α	| Gain-of-function by somatic mutation |	Colon, breast, brain, ovary
+  | Amplification	| Ovary, gastric, lung, cervix
+p85	| Gain-of-function by somatic mutation |	Brain, colon, ovary
+AKT1 |	Gain-of-function by somatic mutation |	Breast, colorectal, ovary
+AKT2 |	Amplification	 | Ovary, lymphoma, pancreas
+     | Mutation	| Colorectal
+PDK1 |	Mutation	| Colorectal
+TSC1/2	| Loss-of-function by mutation (occasionally with concomitant loss of heterozygosity for the wild type allele) |	Tuberous sclerosis (hamartomas of the skin, brain and kidney; rare progression to malignancy)
+TSC1	| Mutation |	Bladder
