@@ -363,3 +363,65 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 ***=right
 
 ![](1-s2.0-S0968000412001934-gr3.jpg)
+
+---
+## SH2 grupid vahendavad Ras aktivatsiooni RTK-de poolt
+
+- türosiinkinaas retseptor-P $\rightarrow$ SH2-Shc-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
+- türosiinkinaas retseptor-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
+
+![](http://www.rndsystems.com/resources/images/5569.jpg)
+
+---&twocol
+## Ras aktivatsioonil vabaneb tema '*effector loop*'
+
+***=left
+
+- **Receptacle for effectors** comprises the so-called 'SWITCH REGIONS', which are three short segments that border the nucleotide-binding site. 
+     - **P-loop** coordinates nucleotide binding, 
+     - **switch I and II** regions make up a mobile binding surface that conforms to the nature of a bound nucleotide
+
+<img src="http://www.hingepeegel.ee/wp-content/uploads/2014/02/sisemine-jumalanna.jpg" style="width: 180px;"/>
+<p style="font-size:12px">Foto:hingepeegel</p>
+
+***=right
+
+![](rasloop.jpg)
+<p style="font-size:12px">doi:10.1038/nrm1229</p>
+
+---&twocol
+## Ras aktiveerib kolm põhilist signaalirada
+
+***=left
+
+Ras toimib läbi oma effektorite:
+- **Raf**
+- **fosfatidüülinositool 3 kinaas, PI3K**
+- **RalGDS (Ral GEF)**
+
+
+![](http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr1.jpg)
+
+***=right
+
+![](RasPI3K.jpg)
+
+---
+## Imetajate MAPK rajad
+Neli põhilist MAPKKK–MAPKK–MAPK kinaasset rada. 
+- ERK rada aktiveeritkse vastusena kasvufaktorite stimlatsioonile, 
+- JNK, p38 and ERK5 rada keskkonna stress, k.a. osmootne shokk ja ioniseeriv kiirgus. 
+- Paljud MAPK substraadid on transkriptioonifacktorid.
+
+<img src="http://www.nature.com/onc/journal/v26/n22/images/1210422f2.jpg" style="width: 420px;"/>
+<p style="font-size:12px">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</p>
+
+---
+## ERK MAPK raja onkogeenne aktivatsioon
+
+![](http://www.nature.com/onc/journal/v26/n22/images/1210422f1.jpg)
+
+<p style="font-size:12px">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</p>
+
+---
+## 
