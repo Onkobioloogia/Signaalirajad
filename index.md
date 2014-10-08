@@ -66,7 +66,7 @@ strong {
 
 - **SH1** kinaasne domään (*Src homology 1*).
 - **SH2** fosfotürosiin valkude dokkimiskoht
-    - inimese genoomis 120 SH2 domääni 115 valgus.
+    - inimese genoomis 121 SH2 domääni 115 valgus.
 - **SH3** proliinirikkaid järjestusi sisaldavate valkude dokkimiskoht
     - inimese genoomis ~300 SH3 domääni.
 
@@ -190,14 +190,21 @@ Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali 
 
 <img src="http://www.frontiersin.org/files/Articles/57883/fimmu-04-00239-HTML/image_m/fimmu-04-00239-g001.jpg" style="width: 460px;"/>
 
----
+---&twocol
 ## Mutantsed Ras valgud on GAP-tundetud
+
+***=left
 
 - **GDP$\leftrightarrow$GTP vahetust stimuleerivad GEF ja GAP valgud**
     - **GEF** (*guanine nucleotide exchange factor*): laadib Ras-i uue GTP-ga
     - **GAP** (*GTPase activating factor*): hüdrolüüsib GTP.
 - Ras-i endogeenne GTP hüdrolüüs 100'000$\times$ madalama kiirusega GAP-vahendatud hüdrolüüsist!
 - **Vähkides esinevad Ras mutatsioonid koodonites 12, 13 ja 61 rikuvad ära GAP-valkude seostumise.**
+
+***=right
+
+![](http://www.rcsb.org/pdb/education_discussion/molecule_of_the_month/images/148-RasProtein_5p21.jpg)
+[April 2012 Molecule of the Month](http://www.rcsb.org/pdb/101/motm.do?momID=148&evtc=Suggest&evta=Moleculeof%20the%20Month&evtl=OtherOptions)
 
 ---&twocol
 ## Ras isovormid
@@ -236,7 +243,15 @@ Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibro
 ## Raku signaalirajad
 
 ---
-## Varajased geenid
+## Immediate early geenid
+
+Kasvufaktorite seostumine retseptoritele käivitab rakus kiire ja vahetu vastuse
+
+- Kasvufaktorite poolt indutseeritakse minutite jooksul kiirelt teatud geenide transkriptsioon ilma, et *de novo* valgusünteesi vaja läheks.
+- Selliseid kiirelt ekspresseeritavaid geene nimetatakse **varajasteks (*immediate early*) geenideks**.
+
+---
+# Varajasi geene on kokku kusagil sadakond.
 
 Geen | Asukoht rakus | Funktsioon
 -----|---------------|----------
@@ -253,3 +268,34 @@ fibronektiin | rakuväline | ECM
 glükoositransporter | plasmamembraan | glükoosiimport
 JE | rakuväline | tsütokiin
 KC | rakuväline | tsütokiin
+
+
+---
+## Signaalirajad on rakus ootel ning '*ready to fire*'
+
+- Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga **tsükloheksimiidi** (valgu sünteesi inhibiitor) juuresolekul toimub varajaste geenide transkriptsioon normaalselt, 
+- viidates, et rakus istuvad seega mingid transkriptsioonifaktorid ja ootavad signaali mobiliseerumiseks.
+
+---&twocol
+## Son of sevenless
+
+***=left
+
+- Kasvufaktorite retseptoritest lähtuva signalisatsiooni lahendamine sai alguse *Drosophila* geneetikast.
+- *Drosophila* silma ommatiidide arengut reguleeriv geen *sevenless* osutus türosiinkinaas retseptoriks, EGF retseptori homoloogiks.
+- Edasine geneetiline komplementatsioon identifitseeris signaalirajas 'allpool' toimiva geeni ***son of sevenless*, sos**, mis osutus pärmi G valkude guaniin nuleotiidi vahetus faktorile (GEF) sarnaseks valguks.
+- Lisaks identifiseeriti *Drosophilas* geneetiliselt sevenless ja sos vahel asuvad adaptorvalgud **Shc, Grb2**.
+
+***=right
+
+<img src="http://www.cell.com/cms/attachment/521363/3549597/gr5.jpg" style="width: 360px;"/>
+
+---
+## Mis on sellise signaaliaja biokeemiline alus
+
+<q> türosiinkinaas retseptor $\rightarrow$ Shc $\rightarrow$ Grb2 $\rightarrow$ Sos $\rightarrow$ Ras </q>
+
+---
+## Fosfotürosiinid kontrollivad tsütoplasma signaalvalkude lokalisatsiooni
+
+
