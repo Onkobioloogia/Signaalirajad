@@ -77,6 +77,7 @@ strong {
 
 
 ---&twocol
+
 ## Retseptor türosiin kinaasid
 
 ***=left
@@ -92,28 +93,34 @@ strong {
 <img src="http://themedicalbiochemistrypage.org/images/rtk-types.png" alt="Drawing" style="width: 500px;"/>
 
 ---&twocol
+
 ## RTK aktivatsioon vähkides
 
 ***=left
+
 - Enamus muutusi on RTK-de geenides seotud **koopiaarvu muutustega** (nt. FGFR4, EGFR, HER2 üle-ekspressioon HER2+-rinna adenokartsinoomides, ~10%).
 - **Mutatsioonid** põhjustavad ligand-sõltumatut aktivatsiooni (nt. EGFRvIII).
 - **Geenifusioonid** mis viivad konstitutiivse homodimeriseerumiseni (ALK, RET, ROS1 translokatsioonid kopsuvähkides, ~5% kokku).
 - **Autokriinsed kasvufaktorid**.
 
 ***=right
-<p style="font-size:12px">Heatmap of 17q12  HER2 amplicon copy number changes. doi:10.1016/j.molonc.2012.10.012</p>
+
+<footer class="source">Heatmap of 17q12  HER2 amplicon copy number changes. doi:10.1016/j.molonc.2012.10.012</footer>
 
 ![her2](http://download.journals.elsevierhealth.com/images/journalimages/1574-7891/PIIS1574789112001202.gr1.lrg.jpg)
 
 ---.segue .dark .nobackground
+
 ## Rakuvälise maatriksi retseptoritest
 
 --- &twocol
+
 ## Integriinid
 
 ***=left
+
 ![intg](http://www.nature.com/nrm/journal/v4/n10/images/nrm1229-f1.jpg)
-<p style="font-size:12px">doi:10.1038/nrm1229</p>
+<footer class="source">doi:10.1038/nrm1229</footer>
 
 ***=right
 
@@ -125,11 +132,13 @@ strong {
     - integriini subühikute tsütoplasma sabade vaheline interaktsioon takistab aktivatsiooni.
 
 ---
+
 # $\alpha$- ja  $\beta$-subühikute kombinatsioonid tagavad spetsiifilisuse
 
 
 <img src="http://genomebiology.com/content/figures/gb-2007-8-5-215-1.jpg" alt="Drawing" style="width: 460px;"/>
-<p style="font-size:12px">doi:10.1186/gb-2007-8-5-215</p>
+
+<footer class="source">doi:10.1186/gb-2007-8-5-215</footer>
 
 ---
 # Näited integriinide ECM ligandidest
@@ -147,6 +156,7 @@ $\alpha 6\beta 4$ | laminiin (epiteliaalsed hemidesmosoomid)
 [Ligand-binding specificities of human integrins](http://genomebiology.com/2007/8/5/215/table/T2)
 
 ---&twocol
+
 ## Integriinid organiseerivad raku adhesioonid
 
 Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali üle kandvad funktsioonid.
@@ -161,6 +171,7 @@ Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali 
 <img src="http://www.nature.com/nrm/journal/v6/n1/images/nrm1549-i1.jpg" style="width: 380px;"/>
 
 ---&twocol
+
 ## $\beta 1$-integriin vähi arengus
 
 ***=left
@@ -170,13 +181,16 @@ Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali 
 - Inimese vähkides on β1 integriinid üle ekspresseeritud nt. pea-kaela lamerakulises kartsinoomis (*HNSCC*) ja määrab kasvajarakkude resistentsuse radioteraapiale, [doi:10.1172/JCI61350](http://www.jci.org/articles/view/61350).
 
 ***=right
+
 <img src="http://ars.els-cdn.com/content/image/1-s2.0-S1535610804002077-gr4.jpg" style="width: 380px;"/>
 
 
 ---.segue .dark .nobackground
+
 ## RAS-ist
 
 ---&twocol
+
 ## Ras valgud
 
 ***=left
@@ -191,6 +205,7 @@ Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali 
 <img src="http://www.frontiersin.org/files/Articles/57883/fimmu-04-00239-HTML/image_m/fimmu-04-00239-g001.jpg" style="width: 460px;"/>
 
 ---&twocol
+
 ## Mutantsed Ras valgud on GAP-tundetud
 
 ***=left
@@ -204,6 +219,7 @@ Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali 
 ***=right
 
 ![](http://www.rcsb.org/pdb/education_discussion/molecule_of_the_month/images/148-RasProtein_5p21.jpg)
+
 [April 2012 Molecule of the Month](http://www.rcsb.org/pdb/101/motm.do?momID=148&evtc=Suggest&evta=Moleculeof%20the%20Month&evtl=OtherOptions)
 
 ---&twocol
@@ -221,6 +237,7 @@ Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali 
 ![](http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr3.jpg)
 
 ---&twocol
+
 ## Ras isovormide sagedus vähis
 
 Ras mutatsioonid on sagedased. K-Ras on enamasti suveräänne liider (va. N-RAS melanoomis).
@@ -240,9 +257,11 @@ kusejuha	| 5	| 10	| 1	| 16
 Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibromiini** (Ras-GAP) somaatiliste deletsioonide: 14% glioblastoom, 13-14% melanoom, 8-10% kopsu adenokartsinoom, jne.
 
 ---.segue .dark .nobackground
+
 ## Raku signaalirajad
 
 ---
+
 ## Immediate early geenid
 
 Kasvufaktorite seostumine retseptoritele käivitab rakus kiire ja vahetu vastuse
@@ -271,12 +290,14 @@ KC | rakuväline | tsütokiin
 
 
 ---
+
 ## Signaalirajad on rakus ootel ning '*ready to fire*'
 
 - Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga **tsükloheksimiidi** (valgu sünteesi inhibiitor) juuresolekul toimub varajaste geenide transkriptsioon normaalselt, 
 - viidates, et rakus istuvad seega mingid transkriptsioonifaktorid ja ootavad signaali mobiliseerumiseks.
 
 ---&twocol
+
 ## Son of sevenless
 
 ***=left
@@ -291,6 +312,7 @@ KC | rakuväline | tsütokiin
 <img src="http://www.cell.com/cms/attachment/521363/3549597/gr5.jpg" style="width: 360px;"/>
 
 ---
+
 ## Src homoloogilisi domääne sisaldavad valgud signaalirajas
 
 - Lisaks identifiseeriti *Drosophilas* geneetiliselt sevenless ja sos vahel asuvad *Src homology* domääne sisaldavad valgud **Shc, Grb2**.
@@ -300,11 +322,13 @@ avastati kui Src homoloogia Fujinami sarkoomi viiruse fes onkovalgus (tsütoplas
 avastati kui CT10 linnu sarkoomiviiruse onkogeen crk. Crk on funktsionaalselt adaptervalk.
 
 ---
+
 ## Mis on sellise signaaliaja biokeemiline alus
 
 <q> türosiinkinaas retseptor $\rightarrow$ Shc $\rightarrow$ Grb2 $\rightarrow$ Sos $\rightarrow$ Ras </q>
 
 ---
+
 ## Fosfotürosiinid kontrollivad tsütoplasma signaalvalkude lokalisatsiooni
 
 Kaks alternatiivset hüpoteesi kuidas RTK fosforülatsioon tekitab signalisatsiooni
@@ -317,6 +341,7 @@ Kaks alternatiivset hüpoteesi kuidas RTK fosforülatsioon tekitab signalisatsio
       - moodustuvad signaliseerimiseks soodsad valgukompleksid.
 
 ---&twocol
+
 ## Valkude dokkimiskohad
 
 ***=right
@@ -343,6 +368,7 @@ Kaks alternatiivset hüpoteesi kuidas RTK fosforülatsioon tekitab signalisatsio
 
 
 ---
+
 ## Olulisemad mitogeense signalisatsiooniga seotud dokkimisdomäänid
 
 Domään | Ligand | Domääni kandvaid valke
@@ -354,17 +380,19 @@ Bromo | atsetüleeritud lüsiin | P/CAF (transkriptsiooni kofaktor), kromatiiniv
 PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 
 ---&twocol
+
 ## RTK tsütoplasma domään sisaldab fosfo sidumissaite erinevatele valkudele
 
 ***=left
 
-<img src="nrm1960-f4.jpg" style="width: 460px;"/>
+<img src="assets/img/nrm1960-f4.jpg" style="width: 460px;"/>
 
 ***=right
 
-![](1-s2.0-S0968000412001934-gr3.jpg)
+![](assets/img/1-s2.0-S0968000412001934-gr3.jpg)
 
 ---
+
 ## SH2 grupid vahendavad Ras aktivatsiooni RTK-de poolt
 
 - türosiinkinaas retseptor-P $\rightarrow$ SH2-Shc-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
@@ -373,6 +401,7 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 ![](http://www.rndsystems.com/resources/images/5569.jpg)
 
 ---&twocol
+
 ## Ras aktivatsioonil vabaneb tema '*effector loop*'
 
 ***=left
@@ -382,14 +411,15 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
      - **switch I and II** regions make up a mobile binding surface that conforms to the nature of a bound nucleotide
 
 <img src="http://www.hingepeegel.ee/wp-content/uploads/2014/02/sisemine-jumalanna.jpg" style="width: 180px;"/>
-<p style="font-size:12px">Foto:hingepeegel</p>
 
 ***=right
 
-![](rasloop.jpg)
-<p style="font-size:12px">doi:10.1038/nrm1229</p>
+![](assets/img/rasloop.jpg)
+
+<footer class="source">Paremal: hingepeegel. Vasemal: doi:10.1038/nrm1229</footer>
 
 ---&twocol
+
 ## Ras aktiveerib kolm põhilist signaalirada
 
 ***=left
@@ -404,33 +434,37 @@ Ras toimib läbi oma effektorite:
 
 ***=right
 
-![](RasPI3K.jpg)
+![](assets/img/RasPI3K.jpg)
 
 ---
+
 ## Imetajate MAPK rajad
+
 Neli põhilist MAPKKK–MAPKK–MAPK kinaasset rada. 
 - ERK rada aktiveeritkse vastusena kasvufaktorite stimulatsioonile, 
 - JNK, p38 and ERK5 rada keskkonna stress, k.a. osmootne shokk ja ioniseeriv kiirgus. 
 - Paljud MAPK substraadid on transkriptioonifacktorid (Ets, Elk-1 SAP-1) aga ka valgusüntees üle Mnk1 $\rightarrow$ eIF4E.
 
 <img src="http://www.nature.com/onc/journal/v26/n22/images/1210422f2.jpg" style="width: 400px;"/>
-<p style="font-size:12px">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</p>
+<footer class="source">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</footer>
 
 ---
+
 ## ERK MAPK raja onkogeenne aktivatsioon
 
 ![](http://www.nature.com/onc/journal/v26/n22/images/1210422f1.jpg)
 
-<p style="font-size:12px">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</p>
+<footer class="source">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</footer>
 
 ---&twocol
+
 ## Fosfatidüülinositool 3 kinaas, PI3K rada
 
 ***=left
 
 Ras - PI3K$\gamma$ kompleks
 
-![](RasPI3K.jpg)
+![](assets/img/RasPI3K.jpg)
 
 
 ***=right
@@ -438,9 +472,10 @@ Ras - PI3K$\gamma$ kompleks
 Ras seostumisel PI3K aktiveeritakse selle katalüütline domään, mis hakkab fosforüleerima $PIP{_2}$ fosfolipiide $\rightarrow$ $PIP{_3}$.
 - Akt/PKB seostub/värvatakse üle oma plekstriin-homoloogilise (PH) domääni plasmamebraanile.
 
-![](plextr.jpg)
+![](assets/img/plextr.jpg)
 
 ---
+
 ## Akt/PKB rada mõjutab rakkude ellujäämist, jagunemist ja kasvu
 
 Bioloogiline effekt | Akt/PKB substraat | Funktsionaalne tagajärg
@@ -461,12 +496,14 @@ Kasv (suurus) |            |
 
 
 ---
+
 ## Mutual exclusivity modules human breast tumours
 
 ![](http://www.nature.com/nature/journal/v490/n7418/images_article/nature11412-f4.2.jpg)
 
 
 ---
+
 # Genetic Alterations in the PI3K/Akt Pathway in Cancer
 
 Gene | Type of Alteration	| Tumor Lineage
@@ -484,3 +521,32 @@ AKT2 |	Amplification	 | Ovary, lymphoma, pancreas
 PDK1 |	Mutation	| Colorectal
 TSC1/2	| Loss-of-function by mutation (occasionally with concomitant loss of heterozygosity for the wild type allele) |	Tuberous sclerosis (hamartomas of the skin, brain and kidney; rare progression to malignancy)
 TSC1	| Mutation |	Bladder
+
+--- .segue .dark .nobackground
+
+## Lingid teistele loengutele
+
+--- &twocol 
+
+***=left 
+
+- [Sissejuhatav loeng](http://rpubs.com/tapa741/sissejuhatus)
+- [Vähitüübid](http://rpubs.com/tapa741/vahityybid)
+- [Onkoviirused](http://tpall.github.io/Onkoviirused)
+- [Onkogeenid](http://tpall.github.io/Onkogeenid)
+- [Retseptorid](http://tpall.github.io/Retseptorid)
+- [Signaalirajad](http://tpall.github.io/Signaalirajad)
+- [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
+- [Rakutsüklikontroll](http://tpall.github.io/Rakutsyklikontroll)
+
+
+***=right 
+
+- [p53 ja apoptoos](http://tpall.github.io/p53-ja-apoptoos)
+- [Immortalisatsioon](http://tpall.github.io/Immortalisatsioon)
+- [Tumorigenees](http://tpall.github.io/Tumorigenees)
+- [Genoomiterviklikkus](http://tpall.github.io/Genoomiterviklikkus)
+- [Mikrokeskkond](http://tpall.github.io/Mikrokeskkond)
+- [Metastaasid](http://tpall.github.io/Metastaas)
+- [Immuunsus](http://tpall.github.io/Immuunsus)
+- [Vähiravimid](http://tpall.github.io/Vahiravim)
