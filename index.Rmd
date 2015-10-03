@@ -58,7 +58,6 @@ strong {
 --- .segue .dark .nobackground
 ## Recap
 
-
 ---&twocol
 ## Src: tsütoplasma türosiin kinaas
 
@@ -75,100 +74,16 @@ strong {
 
 <img src="http://www.nature.com/nrm/journal/v2/n6/images/nrm0601_467a_f3.gif" alt="Drawing" style="width: 460px;"/>
 
-
----&twocol
-
-## Retseptor türosiin kinaasid
-
-***=left
-
-- Tsütoplasmaatiline **kinaasne domään** on konserveerunud,
-    - homoloogne Src-i kinaasse domääniga.
-- Suur varieeruvus rakuvälises domäänis.
-- RTK aktivatsioon toimub kasvufaktori seostumisel ja **retseptori dimeriseerumisel**.
-- Dimeriseerunud retseptorid **trans-fosforüleerivad** teineteise tsütoplasma sabad.
-
-***=right
-
-<img src="http://themedicalbiochemistrypage.org/images/rtk-types.png" alt="Drawing" style="width: 500px;"/>
-
----&twocol
-
-## RTK aktivatsioon vähkides
-
-***=left
-
-- Enamus muutusi on RTK-de geenides seotud **koopiaarvu muutustega** (nt. FGFR4, EGFR, HER2 üle-ekspressioon HER2+-rinna adenokartsinoomides, ~10%).
-- **Mutatsioonid** põhjustavad ligand-sõltumatut aktivatsiooni (nt. EGFRvIII).
-- **Geenifusioonid** mis viivad konstitutiivse homodimeriseerumiseni (ALK, RET, ROS1 translokatsioonid kopsuvähkides, ~5% kokku).
-- **Autokriinsed kasvufaktorid**.
-
-***=right
-
-<footer class="source">Heatmap of 17q12  HER2 amplicon copy number changes. doi:10.1016/j.molonc.2012.10.012</footer>
-
-![her2](http://download.journals.elsevierhealth.com/images/journalimages/1574-7891/PIIS1574789112001202.gr1.lrg.jpg)
-
----.segue .dark .nobackground
-
-## Rakuvälise maatriksi retseptoritest
-
 --- &twocol
-
-## Integriinid
-
-***=left
-
-![intg](http://www.nature.com/nrm/journal/v4/n10/images/nrm1229-f1.jpg)
-<footer class="source">doi:10.1038/nrm1229</footer>
-
-***=right
-
-- Rakuvälise maatriksi (**ECM**) retseptorid.
-- Heterodimeerid: 18 $\alpha$- ja  8 $\beta$ -subühikut.
-- Rakkude **adhesioon**, **migratsioon**, **anoikis**.
-- Integriinide tsütoplasmaatilised sabad seovad mitmeid valke, nt. **taliin, vinkuliin, $\alpha$-aktiniin**, mis seostuvad aktiini tsütoskeletile ja seeläbi vahendavad kõiki integriini rakulisi funtsioone.
-- **Seest-välja (*inside-out*) signalisatsioon** reguleerib integriini afiinsust,
-    - integriini subühikute tsütoplasma sabade vaheline interaktsioon takistab aktivatsiooni.
-
----
-
-# $\alpha$- ja  $\beta$-subühikute kombinatsioonid tagavad spetsiifilisuse
-
-
-<img src="http://genomebiology.com/content/figures/gb-2007-8-5-215-1.jpg" alt="Drawing" style="width: 460px;"/>
-
-<footer class="source">doi:10.1186/gb-2007-8-5-215</footer>
-
----
-# Näited integriinide ECM ligandidest
-
-Integriin | ECM ligand
-----------|-----------
-$\alpha 1\beta 1$ | kollageen, laminiin, vitronektiin, fibronektiin
-$\alpha v\beta 3$ | vitronektiin, fibrinogeen, trombospondiin (angiogenees)
-$\alpha 5\beta 1$ | fibronektiin
-$\alpha 6\beta 1$ | laminiin
-$\alpha 7\beta 1$ | laminiin
-$\alpha 2\beta 3$ | fibrinogeen
-$\alpha 6\beta 4$ | laminiin (epiteliaalsed hemidesmosoomid)
-
-[Ligand-binding specificities of human integrins](http://genomebiology.com/2007/8/5/215/table/T2)
-
----&twocol
-
-## Integriinid organiseerivad raku adhesioonid
-
-Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali üle kandvad funktsioonid.
+## Landscape of recurrent kinase fusions in solid tumours
 
 ***=left
-
-<img src="http://www.proteinatlas.org/images/6028/if_selected.jpg" style="width: 380px;"/>
-
+![EML4ALK](http://media.cellsignal.com/www/images/science/diseases/cancer/proteins/alk-ros1/ros-alk-wb-pathway.gif)
 
 ***=right
+<img src="http://www.nature.com/ncomms/2014/140910/ncomms5846/images/ncomms5846-f1.jpg" style="width:480px;">
 
-<img src="http://www.nature.com/nrm/journal/v6/n1/images/nrm1549-i1.jpg" style="width: 380px;"/>
+<footer class="source">Pildid: vasem, cellsignal.com; parem, [Landscape of recurrent kinase fusions in solid tumours](http://www.nature.com/ncomms/2014/140910/ncomms5846/full/ncomms5846.html)</footer>
 
 ---&twocol
 
@@ -184,84 +99,42 @@ Rakkude adhesioonid on multivalk kompleksid millel on mehhaanilised ja signaali 
 
 <img src="http://ars.els-cdn.com/content/image/1-s2.0-S1535610804002077-gr4.jpg" style="width: 380px;"/>
 
-
----.segue .dark .nobackground
-
-## RAS-ist
-
----&twocol
-
-## Ras valgud
-
-***=left
-
-- **Ras valgud toimivad GDP/GTP-sõltuvate lülititena.**
-- Ras-GDP: inaktiivne/Ras-GTP: aktiivne.
-- Normaalselt on rakkudes Ras seotud GDP-ga ja  mitteaktiivne.
-- Rakuvälised stiimulid (nt. TGF-$\alpha$) põhjustavad transientse Ras-i aktivatsiooni.
-    
-***=right
-
-<img src="http://www.frontiersin.org/files/Articles/57883/fimmu-04-00239-HTML/image_m/fimmu-04-00239-g001.jpg" style="width: 460px;"/>
-
----&twocol
-
-## Mutantsed Ras valgud on GAP-tundetud
-
-***=left
-
-- **GDP$\leftrightarrow$GTP vahetust stimuleerivad GEF ja GAP valgud**
-    - **GEF** (*guanine nucleotide exchange factor*): laadib Ras-i uue GTP-ga
-    - **GAP** (*GTPase activating factor*): hüdrolüüsib GTP.
-- Ras-i endogeenne GTP hüdrolüüs 100'000$\times$ madalama kiirusega GAP-vahendatud hüdrolüüsist!
-- **Vähkides esinevad Ras mutatsioonid koodonites 12, 13 ja 61 rikuvad ära GAP-valkude seostumise.**
-
-***=right
-
-![](http://www.rcsb.org/pdb/education_discussion/molecule_of_the_month/images/148-RasProtein_5p21.jpg)
-
-[April 2012 Molecule of the Month](http://www.rcsb.org/pdb/101/motm.do?momID=148&evtc=Suggest&evta=Moleculeof%20the%20Month&evtl=OtherOptions)
-
----&twocol
-## Ras isovormid
-
-***=left
-
-- Ras-i on kolm geeni: **K-Ras, H-Ras, N-Ras**
-- K-Ras-il on kaks splaissingu isovormi:K-Ras-4A/B
-- Ras valkude G-domääni struktuurid on identsed, 
-- kuid C-terminaalsed hüpervariaablid domäänid erinevad.
-
-***=right
-
-![](http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr3.jpg)
-
----&twocol
-
-## Ras isovormide sagedus vähis
-
-Ras mutatsioonid on sagedased. K-Ras on enamasti suveräänne liider (va. N-RAS melanoomis).
-
-Primaarne kude |  KRAS (%)	| HRAS (%)	| NRAS (%) |	Kokku (%)
----------------|------------|-----------|----------|----------
-pankreas |	71	|0	| <1 |	71
-koolon	| 35 |	1 |	6 |	42
-peensool	| 35 |	0	| <1 |	35
-sapijuha	| 26	| 0 |	2	| 28
-endomeetrium	|17	| <1	| 5	| 22
-kops	| 19	| <1 |	1	| 20
-nahk (melanoom)	| 1	| 1 |	18 |	20
-emakakael	| 8	| 9	| 2	| 19
-kusejuha	| 5	| 10	| 1	| 16
-
-Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibromiini** (Ras-GAP) somaatiliste deletsioonide: 14% glioblastoom, 13-14% melanoom, 8-10% kopsu adenokartsinoom, jne.
-
----.segue .dark .nobackground
-
+--- .segue .dark .nobackground
 ## Raku signaalirajad
 
----
+---&twocol
+## Rakkude kasv ja jagunemine sõltub kasvufaktoritest 
 
+***=left
+
+- 10000 inimese endoteelirakku (HUVEC) külvati  96-welli ja kasvatati 20%FBS söötmes 
+- Seejärel rakud sünkroniseeriti rakutsükli G0 faasis, näljutades neid 1%FBS sisaldavas söötmes
+- 5%FBS ja VEGF lisamine vabastas rakud blokist ja indutseeris nad jagunema
+- Kuidas paneb kasvufaktorite seostumine ja retseptori aktivatsioon käima rakkude jagunemise-kasvu masinavärgi?
+
+***=right
+
+```{r, echo=FALSE}
+library(ggplot2)
+library(ggthemes)
+load("~/Dropbox/Onkobioloogia/Signaalirajad/assets/vegf_huvec.RData")
+ggplot(vegf.sign,aes(timeBin,value,color=factor(Conc))) +
+  stat_summary(fun.data="mean_se",geom = "line", size=2) +
+  scale_color_colorblind(name="VEGF,\nng/ml") +
+  xlab("Time, h") + 
+  ylab("Impedance @64000 Hz") + 
+  geom_vline(xintercept = c(-17.5,0), linetype = "longdash") +
+  annotate("text",x=c(-33,-10,18),y=4200,label=c("20%FBS","1%FBS","5%FBS + VEGF"),size=3) +
+  annotate("rect", xmin = 0, xmax = 2, ymin = -Inf, ymax = Inf, alpha = .2)
+```
+
+<footer class="source">Andmed: Anne Pink, Taavi Päll</footer>
+
+---
+## Signaaliülekande rada jõuab plasmamembraanist tuuma
+
+
+---
 ## Immediate early geenid
 
 Kasvufaktorite seostumine retseptoritele käivitab rakus kiire ja vahetu vastuse
