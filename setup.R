@@ -1,4 +1,5 @@
 library(slidify)
+library(slidifyLibraries)
 
 # loome ettekande
 # setwd("~/Dropbox/Onkobioloogia/")
@@ -7,5 +8,6 @@ library(slidify)
 setwd("~/Dropbox/Onkobioloogia/Signaalirajad/")
 slidify("index.Rmd")
 browseURL("index.html")
+
 # tee githubis sama nimega tühi repo enne publitseerimist
-publish(repo="Signaalirajad", user="tpall")
+# publish(repo="Signaalirajad", user="tpall")
