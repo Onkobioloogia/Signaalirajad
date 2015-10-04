@@ -479,6 +479,10 @@ TSC1	| Mutation |	Bladder
 - Ligandi seostumisel rist-aktiveeritakse kinaasid ja fosforüleeritakse retseptorite sabad, millele seostuvad üle SH2 domäänide STAT transkriptsioonifaktorid
 - Seostunud STAT-ide fosforüleerimisel moodustavad need üle SH2 domäänide dimeeri ja translokeeruvad tuuma
 
+***=right
+
+<img src="http://blogs.shu.edu/cancer/files/2014/08/figure_06_22.jpg" style="width:460px">
+
 ---
 ## Jak-STAT vähis
 
@@ -486,11 +490,6 @@ TSC1	| Mutation |	Bladder
 - JAK2 V617F mutatsioon multimüeloomides
 - STAT3 konstitutiivne aktivatsioon mitmetes kasvajates, sh. melanoomis, rinnakasvajates, pea-kaela lamerakulistes kartsinoomides
 - STAT3 aktivatsioon vahendatud ilmselt üle Src-i
-
-
-***=right
-
-<img src="http://blogs.shu.edu/cancer/files/2014/08/figure_06_22.jpg" style="width:460px">
 
 ---&twocol
 ## Integriini osalevad kasvufaktorite signalisatsioonis 
