@@ -173,12 +173,15 @@ KC | rakuväline | tsütokiin
 --- .segue .dark .nobackground
 ## Raku signaaliradade toimimine
 
----.segue .dark .nobackground
+---
+## Ras valk, osa signaalirajast
 
-## RAS-ist
+- Onkogeenselt aktiveeritud **Ras** (GTPaas) omab rakkudele samasugust transfomeerivat toimet kui **sis** (kasvufaktor) ja **erbB** (retseptor) onkovalgud
+- Kuidas need onkogeenid omavahel seotud on?
+
+![sisras](assets/img/sis-erb-ras-pthwy.png)
 
 ---&twocol
-
 ## Ras valgud
 
 ***=left
@@ -192,8 +195,9 @@ KC | rakuväline | tsütokiin
 
 <img src="http://www.frontiersin.org/files/Articles/57883/fimmu-04-00239-HTML/image_m/fimmu-04-00239-g001.jpg" style="width: 460px;"/>
 
----&twocol
+<footer class="source">Veel: [A comprehensive survey of Ras mutations in cancer](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3354961/), [The GAP arginine finger movement into the catalytic site of Ras increases the activation entropy](http://www.pnas.org/content/105/17/6260.full) </footer>
 
+---&twocol
 ## Mutantsed Ras valgud on GAP-tundetud
 
 ***=left
@@ -241,30 +245,6 @@ emakakael	| 8	| 9	| 2	| 19
 kusejuha	| 5	| 10	| 1	| 16
 
 Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibromiini** (Ras-GAP) somaatiliste deletsioonide: 14% glioblastoom, 13-14% melanoom, 8-10% kopsu adenokartsinoom, jne.
-
----
-## Ras valk, osa signaalirajast
-
-- Onkogeenselt aktiveeritud **Ras** (GTPaas) omab rakkudele samasugust transfomeerivat toimet kui **sis** (kasvufaktor) ja **erbB** (retseptor) onkovalgud
-- Kuidas need onkogeenid omavahel seotud on?
-
-![sisras](assets/img/sis-erb-ras-pthwy.png)
-
---- &twocol
-## Ras valk
-
-***=left
-- Kolm geeni: H-Ras, K-Ras and N-Ras
-- Ras toimib molekulaarse lülitina, mis aktiveeritakse GTP seostumisel
-- Ras-i sisse ja välja lülitamist reguleerivad GEF (*guanine nucleotide exchange factor*) ja GAP (*GTPase-activating protein*) valgud
-- GAP valgu seostumine tõstab Ras-i GTP hüdrolüüsi kiirust ~$10^{5}$ korda
-- Onkogeenselt aktiveeritud Ras-i mutantidel (nt. G12D, G12V) on väljalülitumine (GTP hüdrolüüs) rikutud
-
-***=right
-
-<img src="http://www.wormbook.org/chapters/www_RTKRasMAPKsignaling/rtkrasfig3.jpg" style="width:460px">
-
-<footer class="source">Pilt:wormbook.com. Veel: [A comprehensive survey of Ras mutations in cancer](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3354961/), [The GAP arginine finger movement into the catalytic site of Ras increases the activation entropy](http://www.pnas.org/content/105/17/6260.full) </footer>
 
 ---&twocol
 ## Son of sevenless
