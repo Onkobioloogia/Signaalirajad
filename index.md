@@ -63,6 +63,28 @@ strong {
 ## Recap
 
 --- &twocol
+## Türosiinkinaas retseptorite struktuur
+
+***=left
+
+- Inimesel on 58 RTK-d (TK kokku 525 geeni)
+- RTK tsütoplasmaatiline domään on konserveerunud.
+- Suur varieeruvus rakuvälises domäänis.
+
+***=right
+
+<img src="assets/img/rtk-types.jpg" alt="Drawing" style="width: 500px;"/>
+
+<footer class="source">Pilt: [themedicalbiochemistrypage.org](http://themedicalbiochemistrypage.org/signal-transduction.php#rtk)
+
+---
+## Mutatsioonid kasvufaktorite retseptorites põhjustavad ligand-sõltumatut aktivatsiooni
+
+![gfmuts](assets/img/gf-muts.jpg)
+
+<footer class="source">The Biology of Cancer (Garland Science 2007)</footer>
+
+--- &twocol
 ## Landscape of recurrent kinase fusions in solid tumours
 
 ***=left
@@ -492,6 +514,94 @@ TSC1	| Mutation |	Bladder
 
 ![ab](http://www.nature.com/ncb/journal/v4/n4/images/ncb0402-e83-f1.gif)
 
+---&twocol
+## Wnt-$\beta$-kateniin rada 
+
+***=left
+
+- Rada toimib β-kateniini stabiilsuse ja transkriptsioonilise aktiivsuse kontrollina
+- Ligandi puudumisel toimub Axini kompleks vahendatud $\beta$-kateniini lagundamine
+- Axin kompleks: struktuurvalgud Axin ja tuumor suppressor *adenomatous polyposis coli* (APC), casein kinase 1 (CK1) ja glycogen synthase kinase 3 (GSK3)
+- CK1 ja GSK3 fosforüleerivad $\beta$-kateniini N-terminusest mistõttu selle tunneb ära $\beta$-Trcp E3 ubiquitin ligaasi subühik ja  $\beta$-kateniin ubiquitineeritakse ja lagundatakse proteasoomis
+
+***=right
+
+<img src="http://www.nature.com/nrg/journal/v5/n9/images/nrg1427-f1.jpg" style="width:460px">
+
+---
+## Wnt raja mutatsioonid vähis
+
+Affected gene	| DNA/mRNA alteration	| Functional outcome |	Cancer type	
+--------------|---------------------|--------------------|----------------
+CTNNBl (b-catenin) |	Missense/in-frame deletion	| Enhanced protein stability |	Hepatocellular/Medulloblastoma
+APC (APC)	| Truncation	|Reduced regulatory activity|	Colorectal/gastric
+Axins (Axin I, Axin II)|	Truncation/missense|	Reduced regulatory activity|	Hepatocellular/colorectal	
+CREBP(CBP)|	Truncation/ missense|	Inactive acetyltransferase|	Lymphoma/leukemia
+GSK3b	|Missplicing, in-frame deletion|	Inactive kinase	|Leukemia
+LRP5|	Missplicing, in-frame deletion|	Loss of repression by DKK1	|Breast/parathyroid	
+TCF7L2 (TCF4)|	Missense/deletion/truncation|	Loss of repression	|Colorectal	
+TCF7L2 (TCF4)|	Fusion with VT11A gene|	Unclear	|Colorectal
+FAB123B (WTX)	|Truncation/deletion|	Loss of function|	Wilm’s tumor
+
+<footer class="source">Tabel: [Wnt Signaling in Cancer](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3331705/)</footer>
+
+---&twocol
+## Hedgehog rada
+
+***=left
+- HH ligandid, imetajatel sonic hedgehog (SHH), Indian hedgehog (IHH) ja desert hedgehog (DHH) seostuvad patched 1 (PTCH1) retseptorile
+- Ligandi seostumine PTCH1-le vabastab smoothened (SMO) transmembraanse valgu inhibitsioonist 
+- SMO signalisatsioon vabastab GLI1, GLI2 ja GLI3 transkriptsioonifaktorid inhibitsioonist tuumorsuppressorvalgu suppressor of fused (SUFU) poolt 
+- GLI1, GLI2 ja GLI3 transporditakse tuuma
+
+
+***=right
+
+<img src="https://www.dovepress.com/cr_data/article_fulltext/s60000/60262/img/fig1.jpg" style="width:460px">
+
+<footer class="source">Pilt: [Hedgehog-Gli signaling in basal cell carcinoma and other skin cancers](https://www.dovepress.com/hedgehog-gli-signaling-in-basal-cell-carcinoma-and-other-skin-cancers--peer-reviewed-fulltext-article-RRB)</footer>
+
+---
+## Hedgehog rada vähis
+
+- Imetajatel on SUFU Gli aktiivsuse peamine regulator
+- Pärilikud SUFU mutatsioone on leitud medulloblastoomi, meningioomi patsientidel ja on seotud Gorlini sündroomiga, millega kaasneb kõrge risk saada basaalrakuline kartsinoom 
+- SUFU somaatilisi mutatsioone ja deleteerumist on leitud medulloblastoomides, kondrosarkoomides ja rhabdomüosarkoomides
+
+---
+## HH raja mutatsioonid nahavähkides
+
+Gene|	Mutation type	|Tumor type	|Percent mutated samples
+----|---------------|-----------|-----------------------
+Ptch I|	Loss-of-function, nonsense|	BCC	|40-67
+	|Missense, nonsense, splice site|	BCC	|75
+	|Missense, nonsense|	cSCC|	17
+	|Missense, nonsense, homozygous deletion|	Melanoma|	3-5.5
+SMO|	Gain-of-function, missense|	BCC|	9.5-20.6
+	|Missense|	cSCC|	7.7
+	|Missense, nonsense, amplification|	Melanoma|	2.2-8
+SUFU|	Missense|	BCC|	4.7
+	|Missense|	cSCC|	2.6
+	|Missense|	Melanoma|	0.7-3.3
+Shh|	Translocation|	BCC|	One case
+	|Missense, frameshift|	cSCC	|17.9
+	|Missense, amplification|	Melanoma	|0-4.7
+
+---
+# tabel jätkub
+
+Gene|	Mutation type	|Tumor type	|Percent mutated samples
+----|---------------|-----------|-----------------------
+HHIP|	Missense, nonsense, amplification|	Melanoma|	6.6-9.1
+	|Missense|	cSCC	|30.7
+Gli1|	Missense, nonsense, amplification|	Melanoma	|1.1-7.2
+	|Missense, nonsense|	cSCC	|23
+Gli2|	Missense, nonsense, amplification|	Melanoma|	2.2-12.2
+	|Missense, nonsense|	cSCC	|25.6
+Gli3|	Missense, splice site, amplification|	Melanoma|	3.3-7.2
+	|Missense, nonsense|	cSCC|	23
+
+<footer class="source">Tabel: [Hedgehog-Gli signaling in basal cell carcinoma and other skin cancers](https://www.dovepress.com/hedgehog-gli-signaling-in-basal-cell-carcinoma-and-other-skin-cancers--peer-reviewed-fulltext-article-RRB)</footer>
 
 --- .segue .dark .nobackground
 
