@@ -2,7 +2,7 @@
 title       : Vähi signaalirajad
 subtitle    : Onkobioloogia
 author      : Taavi Päll
-job         : vanemteadur, VTAK
+job         : lektor, Tallinna Tehnikaülikool
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -20,9 +20,13 @@ img {
 </style>
 
 <style> .title-slide {
-  background-color: #FFFFFF; /*#CBE7A5 #EDE0CF; ; #CA9F9D*/
-}
-
+  background-image:url(assets/img/TCGA_hotnet.jpg); 
+  background-repeat: no-repeat; 
+  background-position: 90% 25%; 
+  background-size: 45%; 
+  background-color: #FFFFFF
+  }
+  
 .title-slide hgroup > h1{
  font-family: 'Oswald', 'Helvetica', sanserif; 
 }
@@ -58,22 +62,6 @@ strong {
 --- .segue .dark .nobackground
 ## Recap
 
----&twocol
-## Src: tsütoplasma türosiin kinaas
-
-***=left
-
-- **SH1** kinaasne domään (*Src homology 1*).
-- **SH2** fosfotürosiin valkude dokkimiskoht
-    - inimese genoomis 121 SH2 domääni 115 valgus.
-- **SH3** proliinirikkaid järjestusi sisaldavate valkude dokkimiskoht
-    - inimese genoomis ~300 SH3 domääni.
-
-
-***=right
-
-<img src="http://www.nature.com/nrm/journal/v2/n6/images/nrm0601_467a_f3.gif" alt="Drawing" style="width: 460px;"/>
-
 --- &twocol
 ## Landscape of recurrent kinase fusions in solid tumours
 
@@ -86,7 +74,6 @@ strong {
 <footer class="source">Pildid: vasem, cellsignal.com; parem, [Landscape of recurrent kinase fusions in solid tumours](http://www.nature.com/ncomms/2014/140910/ncomms5846/full/ncomms5846.html)</footer>
 
 ---&twocol
-
 ## $\beta 1$-integriin vähi arengus
 
 ***=left
@@ -100,7 +87,7 @@ strong {
 <img src="http://ars.els-cdn.com/content/image/1-s2.0-S1535610804002077-gr4.jpg" style="width: 380px;"/>
 
 --- .segue .dark .nobackground
-## Raku signaalirajad
+## Kasvufaktorid käivitavad signaalirajad
 
 ---&twocol
 ## Rakkude kasv ja jagunemine sõltub kasvufaktoritest 
@@ -118,17 +105,21 @@ strong {
 
 <footer class="source">Andmed: Anne Pink, Taavi Päll</footer>
 
----
+---&twocol
 ## Signaaliülekande rada jõuab plasmamembraanist tuuma
 
+***=left
 
----
-## Immediate early geenid
+- Kasvufaktorite seostumine retseptoritele käivitab rakus kiire ja vahetu vastuse
+- Kasvufaktorite poolt indutseeritakse minutite jooksul kiirelt teatud geenide transkriptsioon
+- uute valkude sünteesi ei toimu/ei lähe vaja.
+- Selliseid kiirelt ekspresseeritavaid geene nimetatakse **varajasteks geenideks (*immediate early genes*)**.
 
-Kasvufaktorite seostumine retseptoritele käivitab rakus kiire ja vahetu vastuse
+***=right
 
-- Kasvufaktorite poolt indutseeritakse minutite jooksul kiirelt teatud geenide transkriptsioon ilma, et *de novo* valgusünteesi vaja läheks.
-- Selliseid kiirelt ekspresseeritavaid geene nimetatakse **varajasteks (*immediate early*) geenideks**.
+<img src="assets/img/1471-2199-5-13-2.jpg" style="width:300px;">
+
+<footer class="source">Pilt: adapteeritud [Expression profiling of serum inducible genes identifies a subset of SRF target genes...](http://www.biomedcentral.com/1471-2199/5/13)</footer>
 
 ---
 # Varajasi geene on kokku kusagil sadakond.
@@ -151,85 +142,197 @@ KC | rakuväline | tsütokiin
 
 
 ---
-
 ## Signaalirajad on rakus ootel ning '*ready to fire*'
 
-- Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga **tsükloheksimiidi** (valgu sünteesi inhibiitor) juuresolekul toimub varajaste geenide transkriptsioon normaalselt, 
+- Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga valgu sünteesi inhibiitori juuresolekul (tsükloheksimiid) toimub varajaste geenide transkriptsioon normaalselt, 
 - viidates, et rakus istuvad seega mingid transkriptsioonifaktorid ja ootavad signaali mobiliseerumiseks.
+- Lisaks varaste geenide transkriptsiooni indutseerimisele
+    - valgusünteesi kiirus suureneb
+    - vahetud muutused raku morfoloogias ja migratsioonis
+
+---
+## Lisaks muutustele geeniekspressioonis toimuvad muutused ka raku morfoloogias
+
+![factin](http://d247mjxbujv0d8.cloudfront.net/content/ajpheart/277/5/H2038/F4.large.jpg?width=800&height=600&carousel=1)
+
+<footer class="source">Pilt: [VEGF induced rapid formation of actomyosin stress fibers](http://ajpheart.physiology.org/content/277/5/H2038)</footer>
+
+---&twocol
+## Varajastele geenidele järgneb sekundaarsete geenide ekspressiooni laine
+
+***=left
+
+<img src="http://www.nature.com/nrm/journal/v12/n2/images/nrm3048-f2.jpg" style="width:480px;">
+
+***=right
+
+- Pidevalt jagunevates rakkudes on paljud varajased geenid negatiivse tagasiside mehhanismide tõttu maha reguleeritud
+
+<footer class="source">Pilt: [Feedback regulation of EGFR signalling: decision making by early and delayed loops](http://www.nature.com/nrm/journal/v12/n2/full/nrm3048.html)</footer>
+
+--- .segue .dark .nobackground
+## Raku signaaliradade toimimine
+
+---.segue .dark .nobackground
+
+## RAS-ist
 
 ---&twocol
 
+## Ras valgud
+
+***=left
+
+- **Ras valgud toimivad GDP/GTP-sõltuvate lülititena.**
+- Ras-GDP: inaktiivne/Ras-GTP: aktiivne.
+- Normaalselt on rakkudes Ras seotud GDP-ga ja  mitteaktiivne.
+- Rakuvälised stiimulid (nt. TGF-$\alpha$) põhjustavad transientse Ras-i aktivatsiooni.
+    
+***=right
+
+<img src="http://www.frontiersin.org/files/Articles/57883/fimmu-04-00239-HTML/image_m/fimmu-04-00239-g001.jpg" style="width: 460px;"/>
+
+---&twocol
+
+## Mutantsed Ras valgud on GAP-tundetud
+
+***=left
+
+- Ras toimib molekulaarse lülitina, mis aktiveeritakse GTP seostumisel
+- Ras-i sisse ja välja lülitamist reguleerivad GEF (*guanine nucleotide exchange factor*) ja GAP (*GTPase-activating protein*) valgud
+- GAP valgu seostumine tõstab Ras-i GTP hüdrolüüsi kiirust ~$10^{5}$ korda
+- Onkogeenselt aktiveeritud Ras-i mutantidel (nt. G12D, G12V) on väljalülitumine (GTP hüdrolüüs) rikutud
+
+***=right
+
+![](http://www.rcsb.org/pdb/education_discussion/molecule_of_the_month/images/148-RasProtein_5p21.jpg)
+
+[April 2012 Molecule of the Month](http://www.rcsb.org/pdb/101/motm.do?momID=148&evtc=Suggest&evta=Moleculeof%20the%20Month&evtl=OtherOptions)
+
+---&twocol
+## Ras isovormid
+
+***=left
+
+- Ras-i on kolm geeni: **K-Ras, H-Ras, N-Ras**
+- K-Ras-il on kaks splaissingu isovormi:K-Ras-4A/B
+- Ras valkude G-domääni struktuurid on identsed, 
+- kuid C-terminaalsed hüpervariaablid domäänid erinevad.
+
+***=right
+
+![](http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr3.jpg)
+
+---&twocol
+## Ras isovormide sagedus vähis
+
+Ras mutatsioonid on sagedased. K-Ras on enamasti suveräänne liider (va. N-RAS melanoomis).
+
+Primaarne kude |  KRAS (%)	| HRAS (%)	| NRAS (%) |	Kokku (%)
+---------------|------------|-----------|----------|----------
+pankreas |	71	|0	| <1 |	71
+koolon	| 35 |	1 |	6 |	42
+peensool	| 35 |	0	| <1 |	35
+sapijuha	| 26	| 0 |	2	| 28
+endomeetrium	|17	| <1	| 5	| 22
+kops	| 19	| <1 |	1	| 20
+nahk (melanoom)	| 1	| 1 |	18 |	20
+emakakael	| 8	| 9	| 2	| 19
+kusejuha	| 5	| 10	| 1	| 16
+
+Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibromiini** (Ras-GAP) somaatiliste deletsioonide: 14% glioblastoom, 13-14% melanoom, 8-10% kopsu adenokartsinoom, jne.
+
+---
+## Ras valk, osa signaalirajast
+
+- Onkogeenselt aktiveeritud **Ras** (GTPaas) omab rakkudele samasugust transfomeerivat toimet kui **sis** (kasvufaktor) ja **erbB** (retseptor) onkovalgud
+- Kuidas need onkogeenid omavahel seotud on?
+
+![sisras](assets/img/sis-erb-ras-pthwy.png)
+
+--- &twocol
+## Ras valk
+
+***=left
+- Kolm geeni: H-Ras, K-Ras and N-Ras
+- Ras toimib molekulaarse lülitina, mis aktiveeritakse GTP seostumisel
+- Ras-i sisse ja välja lülitamist reguleerivad GEF (*guanine nucleotide exchange factor*) ja GAP (*GTPase-activating protein*) valgud
+- GAP valgu seostumine tõstab Ras-i GTP hüdrolüüsi kiirust ~$10^{5}$ korda
+- Onkogeenselt aktiveeritud Ras-i mutantidel (nt. G12D, G12V) on väljalülitumine (GTP hüdrolüüs) rikutud
+
+***=right
+
+<img src="http://www.wormbook.org/chapters/www_RTKRasMAPKsignaling/rtkrasfig3.jpg" style="width:460px">
+
+<footer class="source">Pilt:wormbook.com. Veel: [A comprehensive survey of Ras mutations in cancer](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3354961/), [The GAP arginine finger movement into the catalytic site of Ras increases the activation entropy](http://www.pnas.org/content/105/17/6260.full) </footer>
+
+---&twocol
 ## Son of sevenless
 
 ***=left
 
 - Kasvufaktorite retseptoritest lähtuva signalisatsiooni lahendamine sai alguse *Drosophila* geneetikast.
-- *Drosophila* silma ommatiidide arengut reguleeriv geen *sevenless* osutus türosiinkinaas retseptoriks, EGF retseptori homoloogiks.
+- *Drosophila* silma ommatiidide arengut reguleeriv geen **sevenless** osutus türosiinkinaas retseptoriks, EGF retseptori homoloogiks.
 - Edasine geneetiline komplementatsioon identifitseeris signaalirajas 'allpool' toimiva geeni ***son of sevenless*, sos**, mis osutus pärmi G valkude guaniin nuleotiidi vahetus faktorile (GEF) sarnaseks valguks.
 
 
 ***=right
 
-<img src="http://www.cell.com/cms/attachment/521363/3549597/gr5.jpg" style="width: 360px;"/>
+<img src="http://starklab.slu.edu/sev.jpg" style="width: 360px;"/>
+
+*Drosophila* sevenless mutandil puudub ommatiididest seitsmes rakk ehk on ainult kuus rakku
+
+
+<footer class="source">Pilt: [Drosophila sevenless mutant](http://starklab.slu.edu)  </footer>
 
 ---
+## Mis on sevenless-sos signaaliraja biokeemiline alus?
 
-## Src homoloogilisi domääne sisaldavad valgud signaalirajas
+- Lisaks identifiseeriti *Drosophilas* geneetiliselt signaalirajas sevenless ja sos vahel toimivad  adaptervalgud **Shc, Grb2 ja Crk**
 
-- Lisaks identifiseeriti *Drosophilas* geneetiliselt sevenless ja sos vahel asuvad *Src homology* domääne sisaldavad valgud **Shc, Grb2**.
-    - **SH2, fosfotürosüül peptiide siduv domään**
-avastati kui Src homoloogia Fujinami sarkoomi viiruse fes onkovalgus (tsütoplasma türosiin kinaas);
-    - **SH3, proliinirikkaid järjestusi siduv domään**
-avastati kui CT10 linnu sarkoomiviiruse onkogeen crk. Crk on funktsionaalselt adaptervalk.
+
+<img src="assets/img/signaling_cascade.png">
 
 ---
+## Kuidas RTK fosforülatsioon tekitab signalisatsiooni?
 
-## Mis on sellise signaaliaja biokeemiline alus
+1. p-RTK fosforüleerib ja aktiveerib rakus oma substraate
+      - aktiveeritud substraadid signaliseerivad
+      - RTK fosforülatsioon sekundaarse tähendusega
 
-<q> türosiinkinaas retseptor $\rightarrow$ Shc $\rightarrow$ Grb2 $\rightarrow$ Sos $\rightarrow$ Ras </q>
-
----
-
-## Fosfotürosiinid kontrollivad tsütoplasma signaalvalkude lokalisatsiooni
-
-Kaks alternatiivset hüpoteesi kuidas RTK fosforülatsioon tekitab signalisatsiooni
-
-- **fosfo-RTK fosforüleerib ja aktiveerib rakus oma substraate.**
-      - aktiveeritud substraadid signaliseerivad,
-      - RTK fosforülatsioon sekundaarse tähendusega.
-- **fosfo-RTK seob teisi signaalvalke ja muudab nende lokalisatsiooni.**
-      - teiste signaalvalkude sisemine aktiivsus ei muutu.
-      - moodustuvad signaliseerimiseks soodsad valgukompleksid.
+2. p-RTK seob teisi signaalvalke ja muudab nende lokalisatsiooni
+      - teiste signaalvalkude sisemine aktiivsus ei muutu
+      - moodustuvad signaliseerimiseks soodsad valgukompleksid
 
 ---&twocol
+## Src homoloogsed domäänid vahendavad valkude relokatsiooni
 
+***=left
+
+- **SH1** kinaasne domään (*Src homology 1*).
+- **SH2** fosfotürosiin peptiidide dokkimiskoht
+    - inimese genoomis 121 SH2 domääni 115 valgus
+- **SH3** proliinirikkaid järjestusi sisaldavate järjestuste dokkimiskoht
+    - inimese genoomis ~300 SH3 domääni
+
+***=right
+
+<img src="http://www.nature.com/nrm/journal/v2/n6/images/nrm0601_467a_f3.gif" alt="Drawing" style="width: 460px;"/>
+
+---&twocol
 ## Valkude dokkimiskohad
 
 ***=right
 
-- **SH2** fosfotürosiin valkude dokkimiskoht
-    - inimese genoomis 121 SH2 domääni 115 valgus.
-- **SH3** proliinirikkaid järjestusi sisaldavate valkude dokkimiskoht
-    - inimese genoomis ~300 SH3 domääni.
-- SH2/3 pasteeritud väga erinevatesse valgulistesse kontekstidesse.
-    - puhtalt adaptorvalgud ilma katalüütiliste domäänideta
-    - katalüütilisi domääne sisaldavad valgud.
+- SH2/3 pasteeritud väga erinevatesse valgulistesse kontekstidesse
+    - puhtalt adaptorvalgud ilma katalüütiliste domäänideta (Shc, Grb2)
+    - katalüütilisi domääne sisaldavad valgud (Src)
  
 ***=left
 
 ![sh2](http://www.nature.com/nrm/journal/v3/n3/images/nrm759-f1.gif)
 
 ---
-## Lisaks SH2/SH3 domäänile ka palju teisi
-
-~ 32 erinevat domääni
-
-
-![dokid](http://www.sciencemag.org/content/300/5618/445/F1.medium.gif)
-
-
----
-
 ## Olulisemad mitogeense signalisatsiooniga seotud dokkimisdomäänid
 
 Domään | Ligand | Domääni kandvaid valke
@@ -241,7 +344,6 @@ Bromo | atsetüleeritud lüsiin | P/CAF (transkriptsiooni kofaktor), kromatiiniv
 PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 
 ---&twocol
-
 ## RTK tsütoplasma domään sisaldab fosfo sidumissaite erinevatele valkudele
 
 ***=left
@@ -253,16 +355,14 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 ![](assets/img/1-s2.0-S0968000412001934-gr3.jpg)
 
 ---
-
 ## SH2 grupid vahendavad Ras aktivatsiooni RTK-de poolt
 
 - türosiinkinaas retseptor-P $\rightarrow$ SH2-Shc-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
 - türosiinkinaas retseptor-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
 
-![](http://www.rndsystems.com/resources/images/5569.jpg)
+![trkRas](http://www.nature.com/nrm/journal/v13/n1/images/nrm3255-f1.jpg)
 
 ---&twocol
-
 ## Ras aktivatsioonil vabaneb tema '*effector loop*'
 
 ***=left
@@ -271,16 +371,13 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
      - **P-loop** coordinates nucleotide binding, 
      - **switch I and II** regions make up a mobile binding surface that conforms to the nature of a bound nucleotide
 
-<img src="http://www.hingepeegel.ee/wp-content/uploads/2014/02/sisemine-jumalanna.jpg" style="width: 180px;"/>
-
 ***=right
 
 ![](assets/img/rasloop.jpg)
 
-<footer class="source">Paremal: hingepeegel. Vasemal: doi:10.1038/nrm1229</footer>
+<footer class="source">Pilt: doi:10.1038/nrm1229</footer>
 
 ---&twocol
-
 ## Ras aktiveerib kolm põhilist signaalirada
 
 ***=left
@@ -298,7 +395,6 @@ Ras toimib läbi oma effektorite:
 ![](assets/img/RasPI3K.jpg)
 
 ---
-
 ## Imetajate MAPK rajad
 
 Neli põhilist MAPKKK–MAPKK–MAPK kinaasset rada. 
@@ -310,7 +406,6 @@ Neli põhilist MAPKKK–MAPKK–MAPK kinaasset rada.
 <footer class="source">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</footer>
 
 ---
-
 ## ERK MAPK raja onkogeenne aktivatsioon
 
 ![](http://www.nature.com/onc/journal/v26/n22/images/1210422f1.jpg)
@@ -318,7 +413,6 @@ Neli põhilist MAPKKK–MAPKK–MAPK kinaasset rada.
 <footer class="source">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</footer>
 
 ---&twocol
-
 ## Fosfatidüülinositool 3 kinaas, PI3K rada
 
 ***=left
