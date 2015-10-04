@@ -73,19 +73,6 @@ strong {
 
 <footer class="source">Pildid: vasem, cellsignal.com; parem, [Landscape of recurrent kinase fusions in solid tumours](http://www.nature.com/ncomms/2014/140910/ncomms5846/full/ncomms5846.html)</footer>
 
----&twocol
-## $\beta 1$-integriin vähi arengus
-
-***=left
-
-- $\beta 1$-integriin on hiire rinnavähi mudelis vajalik  kasvaja tekkes ja hilisemas faasis vähirakkude jagunemisvõime säilitamiseks. *Ablation of β1-integrin expression impairs mammary tumorigenesis in MMTV/PyV MT mice*, [doi:10.1016/j.ccr.2004.06.025](http://www.sciencedirect.com/science/article/pii/S1535610804002077) (kõrval olev pilt).
-
-- Inimese vähkides on β1 integriinid üle ekspresseeritud nt. pea-kaela lamerakulises kartsinoomis (*HNSCC*) ja määrab kasvajarakkude resistentsuse radioteraapiale, [doi:10.1172/JCI61350](http://www.jci.org/articles/view/61350).
-
-***=right
-
-<img src="http://ars.els-cdn.com/content/image/1-s2.0-S1535610804002077-gr4.jpg" style="width: 380px;"/>
-
 --- .segue .dark .nobackground
 ## Kasvufaktorid käivitavad signaalirajad
 
@@ -374,9 +361,9 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 
 ***=left
 
-Ras toimib läbi oma effektorite:
-- **Raf**
-- **fosfatidüülinositool 3 kinaas, PI3K**
+Aktiveeritud Ras seotub ja aktiveerib oma effektorvalke:
+- **Raf kinaas**
+- **Fosfatidüülinositool 3 kinaas, PI3K**
 - **RalGDS (Ral GEF)**
 
 
@@ -386,19 +373,23 @@ Ras toimib läbi oma effektorite:
 
 ![](assets/img/RasPI3K.jpg)
 
+---&twocol
+## MAPK rada
+
+***=left
+
+- Ras-Raf-MEK-ERK signaalirada
+- MAPK rada aktiveeritkse vastusena kasvufaktorite stimulatsioonile, 
+- Paljud MAPK raja substraadid on transkriptioonifacktorid (Ets, Elk-1 SAP-1) aga ka valgusüntees üle Mnk1 kinaasi vahendatud eIF4E aktivatsiooni
+
+***=right
+
+<img src="http://clincancerres.aacrjournals.org/content/16/13/3329/F1.large.jpg" style="width: 400px;"/>
+
+<footer class="source"></footer>
+
 ---
-## Imetajate MAPK rajad
-
-Neli põhilist MAPKKK–MAPKK–MAPK kinaasset rada. 
-- ERK rada aktiveeritkse vastusena kasvufaktorite stimulatsioonile, 
-- JNK, p38 and ERK5 rada keskkonna stress, k.a. osmootne shokk ja ioniseeriv kiirgus. 
-- Paljud MAPK substraadid on transkriptioonifacktorid (Ets, Elk-1 SAP-1) aga ka valgusüntees üle Mnk1 $\rightarrow$ eIF4E.
-
-<img src="http://www.nature.com/onc/journal/v26/n22/images/1210422f2.jpg" style="width: 400px;"/>
-<footer class="source">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</footer>
-
----
-## ERK MAPK raja onkogeenne aktivatsioon
+## MAPK raja onkogeenne aktivatsioon
 
 ![](http://www.nature.com/onc/journal/v26/n22/images/1210422f1.jpg)
 
@@ -409,20 +400,27 @@ Neli põhilist MAPKKK–MAPKK–MAPK kinaasset rada.
 
 ***=left
 
-Ras - PI3K$\gamma$ kompleks
-
 ![](assets/img/RasPI3K.jpg)
 
+Ras - PI3K$\gamma$ kompleks
 
 ***=right
 
-Ras seostumisel PI3K aktiveeritakse selle katalüütline domään, mis hakkab fosforüleerima $PIP{_2}$ fosfolipiide $\rightarrow$ $PIP{_3}$.
-- Akt/PKB seostub/värvatakse üle oma plekstriin-homoloogilise (PH) domääni plasmamebraanile.
+- Ras seostumisel PI3K aktiveeritakse selle katalüütline domään, mis hakkab fosforüleerima plasmamembraanis olevaid fosfatidüül-inositool-4,5-difosfaate (PIP2)
+
+---
+## PI3K fosforüülib PIP2>PIP3
+
+![](http://www.babraham.ac.uk/files/large/f4d5128f14fe6cb)
+
+---
+## Akt kinaas seostub üle oma PH domääni plasmamebraanile
+
+- PIP3 vahendab PH-domääni sisaldava Akt kinaasi relokatsiooni plasmamembraanile 
 
 ![](assets/img/plextr.jpg)
 
 ---
-
 ## Akt/PKB rada mõjutab rakkude ellujäämist, jagunemist ja kasvu
 
 Bioloogiline effekt | Akt/PKB substraat | Funktsionaalne tagajärg
@@ -440,17 +438,7 @@ Rakkude jagunemine |                     |
 Kasv (suurus) |            |
               | Tsc2 (kasvu pidurdav) | inhibitsioon
 
-
-
 ---
-
-## Mutual exclusivity modules human breast tumours
-
-![](http://www.nature.com/nature/journal/v490/n7418/images_article/nature11412-f4.2.jpg)
-
-
----
-
 # Genetic Alterations in the PI3K/Akt Pathway in Cancer
 
 Gene | Type of Alteration	| Tumor Lineage
@@ -469,6 +457,55 @@ PDK1 |	Mutation	| Colorectal
 TSC1/2	| Loss-of-function by mutation (occasionally with concomitant loss of heterozygosity for the wild type allele) |	Tuberous sclerosis (hamartomas of the skin, brain and kidney; rare progression to malignancy)
 TSC1	| Mutation |	Bladder
 
+---&twocol
+## Ras-RalGDS rada
+
+***=left
+
+- Ral-GDS(*guanine nucleotide dissociation stimulator*, GEF) aktiveerib RalA ja RalB GTPaasid
+- Ral effektorid on RalBP1 mis on Rac/Cdc42 GAP, Sec5 ja Exo84 mis on eksotsüst-kompleksi subühikud, Y-box transkriptsioonifaktor ZONAB
+-  Ral rada reguleerib seega rakkude morfoloogiat, kasvufaktorite retseptorite endotsütoosi, vesikulaarset transporti  ja transkriptsioonifaktoreid
+
+***=right
+
+![ral](http://www.nature.com/nrc/journal/v8/n2/images/nrc2296-f1.jpg)
+
+---&twocol
+## Jak-STAT rada signaliseerib otse tuuma
+
+***=left
+
+- Interferooni (IFN), erütropietiini (EPO) ja trombopoietiini (TPO) retseptorid moodustavad mittekovalentse kompleksi Jak türosiin kinaasidega
+- Ligandi seostumisel rist-aktiveeritakse kinaasid ja fosforüleeritakse retseptorite sabad, millele seostuvad üle SH2 domäänide STAT transkriptsioonifaktorid
+- Seostunud STAT-ide fosforüleerimisel moodustavad need üle SH2 domäänide dimeeri ja translokeeruvad tuuma
+
+---
+## Jak-STAT vähis
+
+- STAT aktiveerivad muuseas mitmeid rakkude jagunemiseks, ellu jäämiseks ja angiogeneesiks oluliste geenide transkriptsiooni: myc, tsükliinid D2 ja D3 ja anti-apoptootiline Bcl-XL, VEGF 
+- JAK2 V617F mutatsioon multimüeloomides
+- STAT3 konstitutiivne aktivatsioon mitmetes kasvajates, sh. melanoomis, rinnakasvajates, pea-kaela lamerakulistes kartsinoomides
+- STAT3 aktivatsioon vahendatud ilmselt üle Src-i
+
+
+***=right
+
+<img src="http://blogs.shu.edu/cancer/files/2014/08/figure_06_22.jpg" style="width:460px">
+
+---&twocol
+## Integriini osalevad kasvufaktorite signalisatsioonis 
+
+***=left
+
+- Aktiveeritud integriinidele seostunud FAK (*focal adhesion kinase*) fosforüleerimisel Src poolt tekivad FAK-ile SH2 dokkimiskohad, sh Grb2, Shc, PI3K, PLC-y
+- FAK seostunud Grb2 seob ka Sos-i on seega võimeline aktiveerima Ras-Raf rada 
+- Integriin vahendatud Ras aktivatsioon võib seletada miks transformatsiooniga kaasneb adhesioon sõltumatu kasv
+
+***=right
+
+![ab](http://www.nature.com/ncb/journal/v4/n4/images/ncb0402-e83-f1.gif)
+
+
 --- .segue .dark .nobackground
 
 ## Lingid teistele loengutele
@@ -477,8 +514,8 @@ TSC1	| Mutation |	Bladder
 
 ***=left 
 
-- [Sissejuhatav loeng](http://rpubs.com/tapa741/sissejuhatus)
-- [Vähitüübid](http://rpubs.com/tapa741/vahityybid)
+- [Sissejuhatav loeng](http://tpall.github.io/sissejuhatus)
+- [Vähitüübid](http://tpall.github.io/Vahityybid)
 - [Onkoviirused](http://tpall.github.io/Onkoviirused)
 - [Onkogeenid](http://tpall.github.io/Onkogeenid)
 - [Retseptorid](http://tpall.github.io/Retseptorid)
