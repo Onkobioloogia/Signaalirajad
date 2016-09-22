@@ -232,7 +232,7 @@ KC | rakuväline | tsütokiin
 
 ![](http://www.rcsb.org/pdb/education_discussion/molecule_of_the_month/images/148-RasProtein_5p21.jpg)
 
-[April 2012 Molecule of the Month](http://www.rcsb.org/pdb/101/motm.do?momID=148&evtc=Suggest&evta=Moleculeof%20the%20Month&evtl=OtherOptions)
+[April 2012 Molecule of the Month](https://cdn.rcsb.org/pdb101/motm/images/148-RasProtein_5p21.jpg)
 
 ---&twocol
 ## Ras isovormid
