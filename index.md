@@ -37,6 +37,14 @@ img {
 }
 </style>
 
+<!-- Center image on slide -->
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script type="text/javascript">
+$(function() {     
+  $("p:has(img)").addClass('centered'); 
+});
+</script>
+
 <!-- Italic -->
 <style>
 em {
@@ -210,9 +218,9 @@ KC | rakuväline | tsütokiin
 
 ***=right
 
-![](http://www.rcsb.org/pdb/education_discussion/molecule_of_the_month/images/148-RasProtein_5p21.jpg)
+![Ras protein with a non-hydrolyzable analogue of GTP.](https://cdn.rcsb.org/pdb101/motm/images/148-RasProtein_5p21.jpg)
 
-[April 2012 Molecule of the Month](https://cdn.rcsb.org/pdb101/motm/images/148-RasProtein_5p21.jpg)
+[April 2012 Molecule of the Month](http://pdb101.rcsb.org/motm/148)
 
 ---&twocol
 ## Ras isovormid
