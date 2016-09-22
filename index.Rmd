@@ -296,6 +296,7 @@ Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibro
 
 ---
 ## Kuidas RTK fosforülatsioon tekitab signalisatsiooni?
+### Kaks alternatiivset hüpoteesi
 
 1. p-RTK fosforüleerib ja aktiveerib rakus oma substraate
       - aktiveeritud substraadid signaliseerivad
