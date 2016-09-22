@@ -218,7 +218,7 @@ KC | rakuväline | tsütokiin
 
 ***=right
 
-![Ras protein with a non-hydrolyzable analogue of GTP.](https://cdn.rcsb.org/pdb101/motm/images/148-RasProtein_5p21.jpg)
+![Ras protein with a non-hydrolyzable analogue of GTP.](assets/img/148-RasProtein_5p21.jpg)
 
 [April 2012 Molecule of the Month](http://pdb101.rcsb.org/motm/148)
 
