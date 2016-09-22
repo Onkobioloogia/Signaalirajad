@@ -5,7 +5,6 @@ library(slidifyLibraries)
 # setwd("~/Dropbox/Onkobioloogia/")
 # author("Signaalirajad")
 
-setwd("~/Dropbox/Onkobioloogia/Signaalirajad/")
 slidify("index.Rmd")
 # browseURL("index.html")
 

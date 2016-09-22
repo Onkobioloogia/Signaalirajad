@@ -288,7 +288,7 @@ Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibro
 
 1. p-RTK fosforüleerib ja aktiveerib rakus oma substraate
       - aktiveeritud substraadid signaliseerivad
-      - RTK fosforülatsioon sekundaarse tähendusega
+      - RTK autofosforülatsioon sekundaarse tähendusega
 
 2. p-RTK seob teisi signaalvalke ja muudab nende lokalisatsiooni
       - teiste signaalvalkude sisemine aktiivsus ei muutu
