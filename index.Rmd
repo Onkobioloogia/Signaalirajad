@@ -429,7 +429,9 @@ Ras - PI3K$\gamma$ kompleks
 
 ***=right
 
-- Ras seostumisel PI3Kinaasile aktiveeritakse selle katalüütline domään, mis hakkab fosforüleerima plasmamembraanis olevaid fosfatidüül-inositool-4,5-difosfaate (PIP2)
+- Ras seostumisel PI3Kinaasile aktiveeritakse selle katalüütline domään. 
+- PI3K-$\gamma$ on lipiidkinaas. 
+- PI3K-$\gamma$ hakkab fosforüleerima plasmamembraanis olevaid fosfatidüül-inositool-4,5-difosfaate (PIP2). 
 
 ---
 ## PI3K fosforüülib PIP2>PIP3
