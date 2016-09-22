@@ -10,4 +10,4 @@ slidify("index.Rmd")
 # browseURL("index.html")
 
 # tee githubis sama nimega tühi repo enne publitseerimist
-# publish(repo = "Signaalirajad", user = "tpall")
+publish(repo = "Signaalirajad", user = "tpall")
