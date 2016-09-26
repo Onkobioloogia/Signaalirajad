@@ -274,7 +274,7 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 
 ***=left
 
-RTK-dega assotseeruvate valkude biokeemiline mitmekesisus seletab kasvufaktorite võimet aktiveerida erinevaid signaaliradu.
++ RTK-dega assotseeruvate valkude biokeemiline mitmekesisus seletab kasvufaktorite võimet aktiveerida erinevaid signaaliradu.
 
 <img src="assets/img/nrm1960-f4.jpg" style="width: 460px;"/>
 
