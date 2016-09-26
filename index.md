@@ -153,10 +153,10 @@ KC | rakuväline | tsütokiin
 ---
 ## Signaalirajad on rakus ootel ning '*ready to fire*'
 
-- Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga valgu sünteesi inhibiitori juuresolekul (tsükloheksimiid) toimub varajaste geenide transkriptsioon normaalselt, 
+- Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga tsükloheksimiidi (valgu sünteesi inhibiitori) juuresolekul toimub varajaste geenide transkriptsioon normaalselt, 
 - viidates, et rakus istuvad seega mingid transkriptsioonifaktorid ja ootavad signaali mobiliseerumiseks.
 - Lisaks varaste geenide transkriptsiooni indutseerimisele
-    - valgusünteesi kiirus suureneb
+    - valgusünteesi kiirus suureneb (eIF4E ja eIF4G fosforüülimine)
     - vahetud muutused raku morfoloogias ja migratsioonis
 
 ---
