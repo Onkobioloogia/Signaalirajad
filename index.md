@@ -207,14 +207,14 @@ KC | rakuväline | tsütokiin
 <footer class="source">Veel: [A comprehensive survey of Ras mutations in cancer](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3354961/), [The GAP arginine finger movement into the catalytic site of Ras increases the activation entropy](http://www.pnas.org/content/105/17/6260.full) </footer>
 
 ---&twocol
-## Mutantsed Ras valgud on GAP-tundetud
+## Mutantne Ras on lakkamatult aktiivne
 
 ***=left
 
 - Ras toimib molekulaarse lülitina, mis aktiveeritakse GTP seostumisel
 - Ras-i sisse ja välja lülitamist reguleerivad GEF (*guanine nucleotide exchange factor*) ja GAP (*GTPase-activating protein*) valgud
-- GAP valgu seostumine tõstab Ras-i GTP hüdrolüüsi kiirust ~$10^{5}$ korda
-- Onkogeenselt aktiveeritud Ras-i mutantidel (nt. G12D, G12V) on väljalülitumine (GTP hüdrolüüs) rikutud
+- GAP valgu seostumine tõstab Ras GTP hüdrolüüsi kiirust ~$10^{5}$ korda
+- Onkogeenselt aktiveeritud Ras mutantidel (nt. G12D, G12V) on GTP hüdrolüüs (väljalülitumine) rikutud.
 
 ***=right
 
