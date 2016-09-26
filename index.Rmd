@@ -270,17 +270,6 @@ SH - Src homoloogsed
 
 ![sh2](http://www.nature.com/nrm/journal/v3/n3/images/nrm759-f1.gif)
 
----
-## Olulisemad mitogeense signalisatsiooniga seotud dokkimisdomäänid
-
-Domään | Ligand | Domääni kandvaid valke
--------|--------|-----------------------
-SH2 | fosfotürosiin | Src (kinaas), Grb2 (adapter), Shc (adapter), SHP2 (fosfataas), Cbl (ubikvitiini ligaas)
-PTB | fosfotürosiin | Shc, IRS-1 (insuliini RTK adapter)
-SH3 | proliinirikkad järestused | Src, Crk (adapter), Grb2, Cdc25 (CDK fosfataas), Bad (apoptoosi regulator), Raf (ser/thr kinaas), PKC (*protein kinase C*, ser/thr kinaas) 
-Bromo | atsetüleeritud lüsiin | P/CAF (transkriptsiooni kofaktor), kromatiinivalgud
-PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
-
 ---&twocol
 ## RTK tsütoplasma domään sisaldab fosfo sidumissaite erinevatele valkudele
 
@@ -293,6 +282,17 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 ***=right
 
 ![pdgfr and vegfr cytplasmic docking sites](assets/img/1-s2.0-S0968000412001934-gr3.jpg)
+
+---
+## Olulisemad mitogeense signalisatsiooniga seotud dokkimisdomäänid
+
+Domään | Ligand | Domääni kandvaid valke
+-------|--------|-----------------------
+SH2 | fosfotürosiin | Src (kinaas), Grb2 (adapter), Shc (adapter), SHP2 (fosfataas), Cbl (ubikvitiini ligaas)
+PTB | fosfotürosiin | Shc, IRS-1 (insuliini RTK adapter)
+SH3 | proliinirikkad järestused | Src, Crk (adapter), Grb2, Cdc25 (CDK fosfataas), Bad (apoptoosi regulator), Raf (ser/thr kinaas), PKC (*protein kinase C*, ser/thr kinaas) 
+Bromo | atsetüleeritud lüsiin | P/CAF (transkriptsiooni kofaktor), kromatiinivalgud
+PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 
 ---&twocol
 ## Ras valgud
