@@ -110,7 +110,7 @@ strong {
 
 ***=right
 
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
 
 <footer class="source">Andmed: Anne Pink, Taavi Päll</footer>
 
