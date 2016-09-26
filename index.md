@@ -231,7 +231,7 @@ KC | rakuväline | tsütokiin
 
 ---&twocol
 ## SH domäänid vahendavad valkude relokatsiooni
-SH -- Src homoloogsed
+SH - Src homoloogsed
 
 ***=left
 
