@@ -287,6 +287,14 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 
 ![sos-sevenless](assets/img/251347598805976.jpg)
 
+---
+## SH2 grupid vahendavad Ras aktivatsiooni RTK-de poolt
+
+- türosiinkinaas retseptor-P $\rightarrow$ SH2-Shc-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
+- türosiinkinaas retseptor-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
+
+![trkRas](http://www.nature.com/nrm/journal/v13/n1/images/nrm3255-f1.jpg)
+
 ---&twocol
 ## Ras valgud
 
@@ -351,14 +359,6 @@ emakakael	| 8	| 9	| 2	| 19
 kusejuha	| 5	| 10	| 1	| 16
 
 Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibromiini** (Ras-GAP) somaatiliste deletsioonide: 14% glioblastoom, 13-14% melanoom, 8-10% kopsu adenokartsinoom, jne.
-
----
-## SH2 grupid vahendavad Ras aktivatsiooni RTK-de poolt
-
-- türosiinkinaas retseptor-P $\rightarrow$ SH2-Shc-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
-- türosiinkinaas retseptor-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
-
-![trkRas](http://www.nature.com/nrm/journal/v13/n1/images/nrm3255-f1.jpg)
 
 ---&twocol
 ## Ras aktivatsioonil vabaneb tema '*effector loop*'
