@@ -282,6 +282,11 @@ SH3 | proliinirikkad järestused | Src, Crk (adapter), Grb2, Cdc25 (CDK fosfataa
 Bromo | atsetüleeritud lüsiin | P/CAF (transkriptsiooni kofaktor), kromatiinivalgud
 PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 
+---
+## sevenless-sos signaaliraja biokeemiline alus
+
+![sos-sevenless](assets/img/251347598805976.jpg)
+
 ---&twocol
 ## Ras valgud
 
