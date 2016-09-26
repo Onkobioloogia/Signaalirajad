@@ -230,7 +230,8 @@ KC | rakuväline | tsütokiin
       - moodustuvad signaliseerimiseks soodsad valgukompleksid
 
 ---&twocol
-## Src homoloogsed domäänid vahendavad valkude relokatsiooni
+## SH domäänid vahendavad valkude relokatsiooni
+SH -- Src homoloogsed
 
 ***=left
 
