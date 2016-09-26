@@ -274,11 +274,13 @@ PH | fosfoinositool | PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)
 
 ***=left
 
+RTK-dega assotseeruvate valkude biokeemiline mitmekesisus seletab kasvufaktorite võimet aktiveerida erinevaid signaaliradu.
+
 <img src="assets/img/nrm1960-f4.jpg" style="width: 460px;"/>
 
 ***=right
 
-![](assets/img/1-s2.0-S0968000412001934-gr3.jpg)
+![pdgfr and vegfr cytplasmic docking sites](assets/img/1-s2.0-S0968000412001934-gr3.jpg)
 
 ---&twocol
 ## Ras valgud
