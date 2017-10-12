@@ -1,1824 +1,1165 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Vähi signaalirajad</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Vähi signaalirajad">
-  <meta name="author" content="Taavi Päll">
-  <meta name="generator" content="slidify" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
-  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
-    media="only screen and (max-device-width: 480px)" >
-  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
-  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+  <head>
+    <title>Vähi signaalirajad</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Taavi Päll" />
+    <link href="index_files/remark-css-0.0.1/example.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
 
-  
-  <!-- Grab CDN jQuery, fall back to local if offline -->
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
-  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
-  <script data-main="libraries/frameworks/io2012/js/slides" 
-    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
-  </script>
-  
-  
+# Vähi signaalirajad
+## Onkobioloogia
+### Taavi Päll
+### 2017/10/16
 
-</head>
-<body style="opacity: 0">
-  <slides class="layout-widescreen">
-    
-    <!-- LOGO SLIDE -->
-        <slide class="title-slide segue nobackground">
-  <hgroup class="auto-fadein">
-    <h1>Vähi signaalirajad</h1>
-    <h2>Onkobioloogia</h2>
-    <p>Taavi Päll<br/>lektor, Tallinna Tehnikaülikool</p>
-  </hgroup>
-  <article></article>  
-</slide>
-    
+---
 
-    <!-- SLIDES -->
-    <slide class="" id="slide-1" style="background:;">
-  <article data-timings="">
-    <!-- Limit image width and height -->
 
-<style type="text/css">
-img {     
-  max-height: 480px;     
-  max-width: 600px; 
-}
-</style>
 
-<style> .title-slide {
-  background-image:url(assets/img/TCGA_hotnet.jpg); 
-  background-repeat: no-repeat; 
-  background-position: 90% 25%; 
-  background-size: 45%; 
-  background-color: #FFFFFF
+
+
+class: inverse, middle, center
+
+# Recap
+
+---
+
+### Türosiinkinaas retseptorite struktuur
+
+.pull-left[
+
+- Inimesel on 58 RTK-d (TK kokku 525 geeni)
+- RTK tsütoplasmaatiline domään on konserveerunud.
+- Suur varieeruvus rakuvälises domäänis.
+]
+
+.pull-right[
+&lt;img src="assets/img/rtk-types.jpg" width="1067" /&gt;
+
+]
+
+.footer[
+Pilt: [themedicalbiochemistrypage.org](http://themedicalbiochemistrypage.org/signal-transduction.php#rtk)
+]
+
+---
+### Mutatsioonid kasvufaktorite retseptorites põhjustavad ligand-sõltumatut aktivatsiooni
+
+&lt;img src="assets/img/gf-muts.jpg" width="1867" /&gt;
+
+
+.footer[The Biology of Cancer (Garland Science 2007)]
+
+---
+### Landscape of recurrent kinase fusions in solid tumours
+
+.pull-left[
+
+![](http://media.cellsignal.com/www/images/science/diseases/cancer/proteins/alk-ros1/ros-alk-wb-pathway.gif)&lt;!-- --&gt;
+
+]
+.pull-right[
+&lt;img src="http://www.nature.com/ncomms/2014/140910/ncomms5846/images/ncomms5846-f1.jpg" width="480" /&gt;
+
+]
+.footer[Pildid: vasem, cellsignal.com; parem, [Landscape of recurrent kinase fusions in solid tumours](http://www.nature.com/ncomms/2014/140910/ncomms5846/full/ncomms5846.html)]
+
+---
+class: inverse, middle, center
+
+# Kasvufaktorid käivitavad signaalirajad
+
+---
+### Rakkude kasv ja jagunemine sõltub kasvufaktoritest 
+
+.pull-left[
+
+- 10000 inimese endoteelirakku (HUVEC) külvati  96-welli ja kasvatati 20%FBS söötmes 
+- Seejärel rakud sünkroniseeriti rakutsükli G0 faasis, näljutades neid 1%FBS sisaldavas söötmes
+- 5%FBS ja VEGF lisamine vabastas rakud blokist ja indutseeris nad jagunema
+- Kuidas paneb kasvufaktorite seostumine ja retseptori aktivatsioon käima rakkude jagunemise-kasvu masinavärgi?
+]
+.pull-right[
+
+![](index_files/figure-html/unnamed-chunk-6-1.svg)&lt;!-- --&gt;
+]
+
+.footer[Andmed: Anne Pink, Taavi Päll]
+
+---
+### Signaaliülekande rada jõuab plasmamembraanist tuuma
+
+.pull-left[
+
+- Kasvufaktorite seostumine retseptoritele käivitab rakus kiire ja vahetu vastuse
+- Kasvufaktorite poolt indutseeritakse minutite jooksul kiirelt teatud geenide transkriptsioon
+- uute valkude sünteesi ei toimu/ei lähe vaja.
+- Selliseid kiirelt ekspresseeritavaid geene nimetatakse **varajasteks geenideks (*immediate early genes*)**.
+]
+
+.pull-right[
+&lt;img src="assets/img/1471-2199-5-13-2.jpg" width="300" /&gt;
+
+]
+
+.footer[Pilt: adapteeritud [Expression profiling of serum inducible genes identifies a subset of SRF target genes...](http://www.biomedcentral.com/1471-2199/5/13)
+]
+
+---
+### Varajasi geene on kokku kusagil sadakond.
+
+&lt;table class="table table-striped" style="font-size: 12px; "&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left;"&gt; Geen  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  Asukoht rakus  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  Funktsioon &lt;/th&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; fos &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tuum &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; AP-1 TF komponent &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; junB &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tuum &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; AP-1 TF komponent &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; egr-1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tuum &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tsinksõrm TF &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; nur77 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tuum &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; steroidretseptor &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Srf-1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tuum &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; TF &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; myc &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tuum &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; bHLH TF &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; `\(\beta\)`-aktiin &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tsütoplasma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tsütoskelett &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; `\(\gamma\)`-aktiin &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tsütoplasma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tsütoskelett &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; tropomüosiin &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tsütoplasma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tsütoskelett &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; fibronektiin &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; rakuväline &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; ECM &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; glükoositransporter &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; plasmamembraan &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; glükoosiimport &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; JE &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; rakuväline &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tsütokiin &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; KC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; rakuväline &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tsütokiin &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+### Signaalirajad on rakus ootel ning '*ready to fire*'
+
+- Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga tsükloheksimiidi (valgu sünteesi inhibiitori) juuresolekul toimub varajaste geenide transkriptsioon normaalselt, 
+- viidates, et rakus istuvad seega mingid transkriptsioonifaktorid ja ootavad signaali mobiliseerumiseks.
+- Lisaks varaste geenide transkriptsiooni indutseerimisele
+    - valgusünteesi kiirus suureneb (eIF4E ja eIF4G fosforüülimine)
+    - vahetud muutused raku morfoloogias ja migratsioonis
+
+---
+### Lisaks muutustele geeniekspressioonis toimuvad muutused ka raku morfoloogias
+
+![](http://d247mjxbujv0d8.cloudfront.net/content/ajpheart/277/5/H2038/F4.large.jpg?width=800&amp;height=600&amp;carousel=1)&lt;!-- --&gt;
+
+
+.footer[Pilt: [VEGF induced rapid formation of actomyosin stress fibers](http://ajpheart.physiology.org/content/277/5/H2038)
+]
+
+---
+### Varajastele geenidele järgneb sekundaarsete geenide ekspressiooni laine
+
+.pull-left[
+
+&lt;img src="http://www.nature.com/nrm/journal/v12/n2/images/nrm3048-f2.jpg" width="480" /&gt;
+
+]
+
+.pull-right[
+- Pidevalt jagunevates rakkudes on paljud varajased geenid negatiivse tagasiside mehhanismide tõttu maha reguleeritud
+]
+
+.footer[
+Pilt: [Feedback regulation of EGFR signalling: decision making by early and delayed loops](http://www.nature.com/nrm/journal/v12/n2/full/nrm3048.html)
+]
+
+---
+class: inverse, middle, center
+
+# Raku signaaliradade toimimine
+
+---
+### Ras valk, osa signaalirajast
+
+- Onkogeenselt aktiveeritud **Ras** (GTPaas) omab rakkudele samasugust transfomeerivat toimet kui **sis** (kasvufaktor) ja **erbB** (retseptor) onkovalgud
+- Kuidas need onkogeenid omavahel seotud on?
+
+&lt;img src="assets/img/sis-erb-ras-pthwy.png" width="727" /&gt;
+
+---
+### Son of sevenless
+
+.pull-left[
+
+- Kasvufaktorite retseptoritest lähtuva signalisatsiooni lahendamine sai alguse *Drosophila* geneetikast.
+- *Drosophila* silma ommatiidide arengut reguleeriv geen **sevenless** osutus türosiinkinaas retseptoriks, EGF retseptori homoloogiks.
+- Edasine geneetiline komplementatsioon identifitseeris signaalirajas 'allpool' toimiva geeni ***son of sevenless*, sos**, mis osutus pärmi G valkude guaniin nuleotiidi vahetus faktorile (GEF) sarnaseks valguks.
+]
+
+.pull-right[
+&lt;img src="http://starklab.slu.edu/sev.jpg" width="360" /&gt;
+
+*Drosophila* sevenless mutandil puudub ommatiididest seitsmes rakk ehk on ainult kuus rakku
+]
+
+.footer[
+Pilt: [Drosophila sevenless mutant](http://starklab.slu.edu)
+]
+
+---
+### Mis on sevenless-sos signaaliraja biokeemiline alus?
+
+- Lisaks identifiseeriti *Drosophilas* geneetiliselt signaalirajas sevenless ja sos vahel toimivad  adaptervalgud **Shc, Grb2 ja Crk**
+
+&lt;img src="assets/img/signaling_cascade.png" width="2217" /&gt;
+
+---
+
+### Kuidas RTK fosforülatsioon tekitab signalisatsiooni?
+
+
+Kaks alternatiivset hüpoteesi:
+
+1. p-RTK fosforüleerib ja aktiveerib rakus oma substraate
+      - aktiveeritud substraadid signaliseerivad
+      - RTK autofosforülatsioon sekundaarse tähendusega
+
+2. p-RTK seob teisi signaalvalke ja muudab nende lokalisatsiooni
+      - teiste signaalvalkude sisemine aktiivsus ei muutu
+      - moodustuvad signaliseerimiseks soodsad valgukompleksid
+
+---
+### SH domäänid vahendavad valkude relokatsiooni
+SH -- Src homoloogsed
+
+.pull-left[
+
+- **SH1** kinaasne domään (*Src homology 1*).
+- **SH2** fosfotürosiin peptiidide dokkimiskoht
+    - inimese genoomis 121 SH2 domääni 115 valgus
+- **SH3** proliinirikkaid järjestusi sisaldavate järjestuste dokkimiskoht
+    - inimese genoomis ~300 SH3 domääni
+]
+
+.pull-right[
+
+&lt;img src="http://www.nature.com/nrm/journal/v2/n6/images/nrm0601_467a_f3.gif" width="460" /&gt;
+
+]
+
+---
+### Valkude dokkimiskohad
+
+.pull-right[
+
+- SH2/3 pasteeritud väga erinevatesse valgulistesse kontekstidesse
+    - puhtalt adaptorvalgud ilma katalüütiliste domäänideta (Shc, Grb2)
+    - katalüütilisi domääne sisaldavad valgud (Src)
+ ]
+ 
+.pull-left[
+
+![](http://www.nature.com/nrm/journal/v3/n3/images/nrm759-f1.gif)&lt;!-- --&gt;
+
+]
+---
+### RTK tsütoplasma domään sisaldab fosfo sidumissaite erinevatele valkudele
+
+.pull-left[
+
++ RTK-dega assotseeruvate valkude biokeemiline mitmekesisus seletab kasvufaktorite võimet aktiveerida erinevaid signaaliradu.
+&lt;img src="assets/img/nrm1960-f4.jpg" width="460" /&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="assets/img/1-s2.0-S0968000412001934-gr3.jpg" width="824" /&gt;
+
+]
+
+---
+### Olulisemad mitogeense signalisatsiooniga seotud dokkimisdomäänid
+
+
+&lt;table class="table table-striped" style="font-size: 12px; "&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left;"&gt; Domään  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  Ligand  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  Domääni kandvaid valke &lt;/th&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; SH2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; fosfotürosiin &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Src (kinaas), Grb2 (adapter), Shc (adapter), SHP2 (fosfataas), Cbl (ubikvitiini ligaas) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; PTB &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; fosfotürosiin &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Shc, IRS-1 (insuliini RTK adapter) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; SH3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; proliinirikkad järestused &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Src, Crk (adapter), Grb2, Cdc25 (CDK fosfataas), Bad (apoptoosi regulator), Raf (ser/thr kinaas), PKC (*protein kinase C*, ser/thr kinaas) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Bromo &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; atsetüleeritud lüsiin &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; P/CAF (transkriptsiooni kofaktor), kromatiinivalgud &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; PH &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; fosfoinositool &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; PLC-$\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+---
+### sevenless-sos signaaliraja biokeemiline alus
+
+&lt;img src="assets/img/251347598805976.jpg" width="1300" /&gt;
+
+
+---
+### SH2 grupid vahendavad Ras aktivatsiooni RTK-de poolt
+
+- türosiinkinaas retseptor-P `\(\rightarrow\)` SH2-Shc-P `\(\rightarrow\)` SH2-Grb2-SH3 `\(\rightarrow\)` proline-rich-Sos `\(\rightarrow\)` Ras
+- türosiinkinaas retseptor-P `\(\rightarrow\)` SH2-Grb2-SH3 `\(\rightarrow\)` proline-rich-Sos `\(\rightarrow\)` Ras
+
+![](http://www.nature.com/nrm/journal/v13/n1/images/nrm3255-f1.jpg)&lt;!-- --&gt;
+
+---
+### Ras valgud
+
+.pull-left[
+
+- **Ras valgud toimivad GDP/GTP-sõltuvate lülititena.**
+- Ras-GDP: inaktiivne/Ras-GTP: aktiivne.
+- Normaalselt on rakkudes Ras seotud GDP-ga ja  mitteaktiivne.
+- Rakuvälised stiimulid (nt. TGF-$\alpha$) põhjustavad transientse Ras-i aktivatsiooni.
+
+]  
+
+.pull-right[
+
+&lt;img src="http://www.frontiersin.org/files/Articles/57883/fimmu-04-00239-HTML/image_m/fimmu-04-00239-g001.jpg" width="460" /&gt;
+
+]
+
+.footer[
+Veel: [A comprehensive survey of Ras mutations in cancer](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3354961/), [The GAP arginine finger movement into the catalytic site of Ras increases the activation entropy](http://www.pnas.org/content/105/17/6260.full) 
+]
+
+---
+### Mutantne Ras on lakkamatult aktiivne
+
+.pull-left[
+
+- Ras toimib molekulaarse lülitina, mis aktiveeritakse GTP seostumisel
+- Ras-i sisse ja välja lülitamist reguleerivad GEF (*guanine nucleotide exchange factor*) ja GAP (*GTPase-activating protein*) valgud
+- GAP valgu seostumine tõstab Ras GTP hüdrolüüsi kiirust ~$10^{5}$ korda
+- Onkogeenselt aktiveeritud Ras mutantidel (nt. G12D, G12V) on GTP hüdrolüüs (väljalülitumine) rikutud.
+]
+
+.pull-right[
+
+&lt;img src="assets/img/148-RasProtein_5p21.jpg" width="653" /&gt;
+
+[April 2012 Molecule of the Month](http://pdb101.rcsb.org/motm/148)
+
+]
+
+---
+### Ras isovormid
+
+.pull-left[
+
+- Ras-i on kolm geeni: **K-Ras, H-Ras, N-Ras**
+- K-Ras-il on kaks splaissingu isovormi:K-Ras-4A/B
+- Ras valkude G-domääni struktuurid on identsed, 
+- kuid C-terminaalsed hüpervariaablid domäänid erinevad.
+
+]
+
+.pull-right[
+
+![](http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr3.jpg)&lt;!-- --&gt;
+
+]
+
+---
+### Ras isovormide sagedus vähis
+
+Ras mutatsioonid on sagedased. K-Ras on enamasti suveräänne liider (va. N-RAS melanoomis).
+
+
+&lt;table class="table table-striped" style="font-size: 12px; "&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left;"&gt; Primaarne kude  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;   KRAS (%)	 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  HRAS (%)	 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  NRAS (%)  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 	Kokku (%) &lt;/th&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; pankreas &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 71 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;lt;1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 71 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; koolon &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 35 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 42 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; peensool &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 35 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;lt;1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; sapijuha &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 26 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; endomeetrium &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 17 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;lt;1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 22 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; kops &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 19 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &amp;lt;1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 20 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; nahk (melanoom) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 18 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 20 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; emakakael &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 19 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; kusejuha &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 16 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibromiini** (Ras-GAP) somaatiliste deletsioonide: 14% glioblastoom, 13-14% melanoom, 8-10% kopsu adenokartsinoom, jne.
+
+---
+### Ras aktivatsioonil vabaneb tema '*effector loop*'
+
+.pull-left[
+
+- **Receptacle for effectors** comprises the so-called 'SWITCH REGIONS', which are three short segments that border the nucleotide-binding site. 
+     - **P-loop** coordinates nucleotide binding, 
+     - **switch I and II** regions make up a mobile binding surface that conforms to the nature of a bound nucleotide
+
+]
+
+.pull-right[
+
+&lt;img src="assets/img/rasloop.jpg" width="348" /&gt;
+
+]
+
+.footer[
+Pilt: doi:10.1038/nrm1229
+]
+
+---
+### Ras aktiveerib kolm põhilist signaalirada
+
+.pull-left[
+
+Aktiveeritud Ras seotub ja aktiveerib oma effektorvalke:
+- **Raf kinaas**
+- **Fosfatidüülinositool 3 kinaas, PI3K**
+- **RalGDS (Ral GEF)**
+
+![](http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr1.jpg)&lt;!-- --&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="assets/img/RasPI3K.jpg" width="1032" /&gt;
+
+]
+
+---
+### MAPK rada
+
+.pull-left[
+
+- Ras-Raf-MEK-ERK signaalirada
+- MAPK rada aktiveeritkse vastusena kasvufaktorite stimulatsioonile, 
+- Paljud MAPK raja substraadid on transkriptioonifacktorid (Ets, Elk-1 SAP-1) aga ka valgusüntees üle Mnk1 kinaasi vahendatud eIF4E aktivatsiooni
+
+]
+
+.pull-right[
+
+&lt;img src="http://clincancerres.aacrjournals.org/content/16/13/3329/F1.large.jpg" width="400" /&gt;
+
+]
+
+.footer[
+Image: clincancerres.aacrjournals.org
+]
+
+---
+### MAPK raja onkogeenne aktivatsioon
+![](http://www.nature.com/onc/journal/v26/n22/images/1210422f1.jpg)&lt;!-- --&gt;
+
+.footer[
+FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der
+]
+
+---
+### Fosfatidüülinositool 3 kinaas, PI3K rada
+
+.pull-left[
+
+&lt;img src="assets/img/RasPI3K.jpg" width="1032" /&gt;
+
+Ras - PI3K$\gamma$ kompleks
+
+]
+
+.pull-right[
+
+- Ras seostumisel PI3Kinaasile aktiveeritakse selle katalüütline domään. 
+- PI3K-$\gamma$ on lipiidkinaas. 
+- PI3K-$\gamma$ hakkab fosforüleerima plasmamembraanis olevaid fosfatidüül-inositool-4,5-difosfaate (PIP2). 
+
+]
+
+---
+### PI3K fosforüülib PIP2&gt;PIP3
+
+![](http://www.babraham.ac.uk/files/large/f4d5128f14fe6cb)&lt;!-- --&gt;
+
+---
+### Akt kinaas seostub üle oma PH domääni plasmamebraanile
+
+- PIP3 vahendab PH-domääni sisaldava Akt kinaasi relokatsiooni plasmamembraanile
+
+&lt;img src="assets/img/plextr.jpg" width="256" /&gt;
+
+---
+### Akt/PKB rada mõjutab rakkude ellujäämist, jagunemist ja kasvu
+
+
+&lt;table class="table table-striped" style="font-size: 12px; "&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left;"&gt; Bioloogiline effekt  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  Akt/PKB substraat  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  Funktsionaalne tagajärg &lt;/th&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Anti-apoptootiline &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Bad (pro-apopootline) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; inhibitsioon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; kaspaas-9 (pro-apopootline) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; inhibitsioon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; I$\kappa$B kinaas (anti-apopootline) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; aktivatsioon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; FOXO1 TF (pro-apopootline) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; inhibitsioon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mdm2 (anti-apopootline) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; aktivatsioon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Rakkude jagunemine &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; GSK-3$\beta$ (anti-proliferatiivne) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; inhibitsioon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; FOXO4 TF (anti-proliferatiivne) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; inhibitsioon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p21 (anti-proliferatiivne) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; inhibitsioon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Kasv (suurus) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NA &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Tsc2 (kasvu pidurdav) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; inhibitsioon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+---
+# Genetic Alterations in the PI3K/Akt Pathway in Cancer
+
+&lt;table class="table table-striped" style="font-size: 12px; "&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left;"&gt; Gene  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  Type of Alteration	 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  Tumor Lineage &lt;/th&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; PTEN &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Loss-of-function by somatic mutation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Brain, prostate, endometrium &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Germline mutation (in 80% of Cowden Disease) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Cowden disease: Increased risk for breast, thyroid, genitourinary and endometrial cancer &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Promoter methylation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Melanoma, breast, colon &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Loss of heterozygosity &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Prostate, melanoma, thyroid, breast, pancreas, ovary, brain, bladder, endometrium, cervix, head and neck, kidney, lung &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; p110α &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Gain-of-function by somatic mutation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Colon, breast, brain, ovary &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Amplification &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Ovary, gastric, lung, cervix &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; p85 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Gain-of-function by somatic mutation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Brain, colon, ovary &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; AKT1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Gain-of-function by somatic mutation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Breast, colorectal, ovary &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; AKT2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Amplification &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Ovary, lymphoma, pancreas &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mutation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Colorectal &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; PDK1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mutation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Colorectal &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; TSC1/2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Loss-of-function by mutation (occasionally with concomitant loss of heterozygosity for the wild type allele) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Tuberous sclerosis (hamartomas of the skin, brain and kidney; rare progression to malignancy) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; TSC1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Mutation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Bladder &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+---
+### Ras-RalGDS rada
+
+.pull-left[
+
+- Ral-GDS(*guanine nucleotide dissociation stimulator*, GEF) aktiveerib RalA ja RalB GTPaasid
+- Ral effektorid on RalBP1 mis on Rac/Cdc42 GAP, Sec5 ja Exo84 mis on eksotsüst-kompleksi subühikud, Y-box transkriptsioonifaktor ZONAB
+-  Ral rada reguleerib seega rakkude morfoloogiat, kasvufaktorite retseptorite endotsütoosi, vesikulaarset transporti  ja transkriptsioonifaktoreid
+
+]
+
+.pull-right[
+
+![](http://www.nature.com/nrc/journal/v8/n2/images/nrc2296-f1.jpg)&lt;!-- --&gt;
+
+]
+
+---
+### Jak-STAT rada signaliseerib otse tuuma
+
+.pull-left[
+
+- Interferooni (IFN), erütropoietiini (EPO) ja trombopoietiini (TPO) retseptorid moodustavad mittekovalentse kompleksi Jak türosiin kinaasidega
+- Ligandi seostumisel rist-aktiveeritakse kinaasid ja fosforüleeritakse retseptorite sabad, millele seostuvad üle SH2 domäänide STAT transkriptsioonifaktorid
+- Seostunud STAT-ide fosforüleerimisel moodustavad need üle SH2 domäänide dimeeri ja translokeeruvad tuuma
+
+]
+
+.pull-right[
+
+&lt;img src="http://blogs.shu.edu/cancer/files/2014/08/figure_06_22.jpg" width="460" /&gt;
+
+]
+
+---
+### Jak-STAT vähis
+
+- STAT aktiveerivad muuseas mitmeid rakkude jagunemiseks, ellu jäämiseks ja angiogeneesiks oluliste geenide transkriptsiooni: myc, tsükliinid D2 ja D3 ja anti-apoptootiline Bcl-XL, VEGF 
+- JAK2 V617F mutatsioon multimüeloomides
+- STAT3 konstitutiivne aktivatsioon mitmetes kasvajates, sh. melanoomis, rinnakasvajates, pea-kaela lamerakulistes kartsinoomides
+- STAT3 aktivatsioon vahendatud ilmselt üle Src-i
+
+---
+### Integriini osalevad kasvufaktorite signalisatsioonis 
+
+.pull-left[
+
+- Aktiveeritud integriinidele seostunud FAK (*focal adhesion kinase*) fosforüleerimisel Src poolt tekivad FAK-ile SH2 dokkimiskohad, sh Grb2, Shc, PI3K, PLC-y
+- FAK seostunud Grb2 seob ka Sos-i on seega võimeline aktiveerima Ras-Raf rada 
+- Integriin vahendatud Ras aktivatsioon võib seletada miks transformatsiooniga kaasneb adhesioon sõltumatu kasv
+]
+
+.pull-right[
+
+![](http://www.nature.com/ncb/journal/v4/n4/images/ncb0402-e83-f1.gif)&lt;!-- --&gt;
+
+]
+
+---
+### Wnt-beta-kateniin rada 
+
+.pull-left[
+
+- Rada toimib β-kateniini stabiilsuse ja transkriptsioonilise aktiivsuse kontrollina
+- Ligandi puudumisel toimub Axini kompleks vahendatud `\(\beta\)`-kateniini lagundamine
+- Axin kompleks: struktuurvalgud Axin ja tuumor suppressor *adenomatous polyposis coli* (APC), casein kinase 1 (CK1) ja glycogen synthase kinase 3 (GSK3)
+- CK1 ja GSK3 fosforüleerivad `\(\beta\)`-kateniini N-terminusest mistõttu selle tunneb ära `\(\beta\)`-Trcp E3 ubiquitin ligaasi subühik ja  `\(\beta\)`-kateniin ubiquitineeritakse ja lagundatakse proteasoomis
+
+]
+
+.pull-right[
+
+![](http://www.nature.com/nrg/journal/v5/n9/images/nrg1427-f1.jpg)&lt;!-- --&gt;
+
+]
+
+---
+### Wnt raja mutatsioonid vähis
+
+&lt;table class="table table-striped" style="font-size: 12px; "&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left;"&gt; Affected gene	 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  DNA/mRNA alteration	 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt;  Functional outcome  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 	Cancer type	 &lt;/th&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; CTNNBl (b-catenin) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense/in-frame deletion &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Enhanced protein stability &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Hepatocellular/Medulloblastoma &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; APC (APC) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Truncation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Reduced regulatory activity &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Colorectal/gastric &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Axins (Axin I, Axin II) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Truncation/missense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Reduced regulatory activity &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Hepatocellular/colorectal &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; CREBP(CBP) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Truncation/ missense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Inactive acetyltransferase &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Lymphoma/leukemia &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; GSK3b &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missplicing, in-frame deletion &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Inactive kinase &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Leukemia &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; LRP5 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missplicing, in-frame deletion &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Loss of repression by DKK1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Breast/parathyroid &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; TCF7L2 (TCF4) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense/deletion/truncation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Loss of repression &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Colorectal &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; TCF7L2 (TCF4) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Fusion with VT11A gene &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Unclear &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Colorectal &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; FAB123B (WTX) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Truncation/deletion &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Loss of function &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Wilm’s tumor &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+.footer[
+Tabel: [Wnt Signaling in Cancer](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3331705/)
+]
+
+---
+### Hedgehog rada
+
+.pull-left[
+
+- HH ligandid, imetajatel sonic hedgehog (SHH), Indian hedgehog (IHH) ja desert hedgehog (DHH) seostuvad patched 1 (PTCH1) retseptorile
+- Ligandi seostumine PTCH1-le vabastab smoothened (SMO) transmembraanse valgu inhibitsioonist 
+- SMO signalisatsioon vabastab GLI1, GLI2 ja GLI3 transkriptsioonifaktorid inhibitsioonist tuumorsuppressorvalgu suppressor of fused (SUFU) poolt 
+- GLI1, GLI2 ja GLI3 transporditakse tuuma
+
+]
+
+.pull-right[
+
+![](https://www.dovepress.com/cr_data/article_fulltext/s60000/60262/img/fig1.jpg)&lt;!-- --&gt;
+
+]
+
+.footer[
+Pilt: [Hedgehog-Gli signaling in basal cell carcinoma and other skin cancers](https://www.dovepress.com/hedgehog-gli-signaling-in-basal-cell-carcinoma-and-other-skin-cancers--peer-reviewed-fulltext-article-RRB)
+]
+
+---
+### Hedgehog rada vähis
+
+- Imetajatel on SUFU Gli aktiivsuse peamine regulator
+- Pärilikud SUFU mutatsioone on leitud medulloblastoomi, meningioomi patsientidel ja on seotud Gorlini sündroomiga, millega kaasneb kõrge risk saada basaalrakuline kartsinoom 
+- SUFU somaatilisi mutatsioone ja deleteerumist on leitud medulloblastoomides, kondrosarkoomides ja rhabdomüosarkoomides
+
+---
+### HH raja mutatsioonid nahavähkides
+
+&lt;table class="table table-striped" style="font-size: 10px; "&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th style="text-align:left;"&gt; Gene &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 	Mutation type	 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Tumor type	 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Percent mutated samples &lt;/th&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Ptch I &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Loss-of-function, nonsense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; BCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 40-67 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense, splice site &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; BCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 75 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; cSCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 17 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense, homozygous deletion &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Melanoma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3-5.5 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; SMO &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Gain-of-function, missense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; BCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 9.5-20.6 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; cSCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 7.7 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense, amplification &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Melanoma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2.2-8 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; SUFU &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; BCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 4.7 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; cSCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2.6 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Melanoma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.7-3.3 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Shh &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Translocation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; BCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; One case &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, frameshift &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; cSCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 17.9 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, amplification &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Melanoma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0-4.7 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; HHIP &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense, amplification &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Melanoma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 6.6-9.1 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; cSCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 30.7 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Gli1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense, amplification &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Melanoma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1.1-7.2 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; cSCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Gli2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense, amplification &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Melanoma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2.2-12.2 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; cSCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 25.6 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt; Gli3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, splice site, amplification &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Melanoma &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3.3-7.2 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Missense, nonsense &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; cSCC &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+.footer[
+Tabel: [Hedgehog-Gli signaling in basal cell carcinoma and other skin cancers](https://www.dovepress.com/hedgehog-gli-signaling-in-basal-cell-carcinoma-and-other-skin-cancers--peer-reviewed-fulltext-article-RRB)
+]
+
+---
+class: inverse, middle, center
+
+# Lingid teistele loengutele
+
+---
+class: inverse, middle
+
+.pull-left[
+
+- [Sissejuhatav loeng](http://tpall.github.io/onkobioloogia)
+- [Onkoviirused](http://tpall.github.io/Onkoviirused)
+- [Onkogeenid](http://tpall.github.io/Onkogeenid)
+- [Retseptorid](http://tpall.github.io/Retseptorid)
+- [Signaalirajad](http://tpall.github.io/Signaalirajad)
+- [Tuumorsupressorgeenid](http://tpall.github.io/Tuumorsupressorid)
+- [Rakutsüklikontroll](http://tpall.github.io/Rakutsyklikontroll)
+
+]
+
+.pull-right[
+
+- [p53 ja apoptoos](http://tpall.github.io/p53-ja-apoptoos)
+- [Immortalisatsioon](http://tpall.github.io/Immortalisatsioon)
+- [Tumorigenees](http://tpall.github.io/Tumorigenees)
+- [Genoomiterviklikkus](http://tpall.github.io/Genoomiterviklikkus)
+- [Mikrokeskkond](http://tpall.github.io/Mikrokeskkond)
+- [Metastaasid](http://tpall.github.io/Metastaas)
+- [Immuunsus](http://tpall.github.io/Immuunsus)
+- [Vahiravim](http://tpall.github.io/Vahiravim) 
+
+]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
+(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
   }
-  
-.title-slide hgroup > h1{
- font-family: 'Oswald', 'Helvetica', sanserif; 
-}
-
-.title-slide hgroup > h1, 
-.title-slide hgroup > h2 {
-  color: #535E43 ;  /* ; #EF5150*/
-}
-</style>
-
-<!-- Center image on slide -->
-
-<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
-
-<script type="text/javascript">
-$(function() {     
-  $("p:has(img)").addClass('centered'); 
 });
 </script>
-
-<!-- Italic -->
-
-<style>
-em {
-  font-style: italic
-}
-</style>
-
-<!-- Bold -->
-
-<style>
-strong {
-  font-weight: bold;
-}
-</style>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="segue dark nobackground" id="slide-2" style="background:;">
-  <hgroup>
-    <h2>Recap</h2>
-  </hgroup>
-  <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-3" style="background:;">
-  <hgroup>
-    <h2>Türosiinkinaas retseptorite struktuur</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Inimesel on 58 RTK-d (TK kokku 525 geeni)</li>
-<li>RTK tsütoplasmaatiline domään on konserveerunud.</li>
-<li>Suur varieeruvus rakuvälises domäänis.</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="assets/img/rtk-types.jpg" alt="Drawing" style="width: 500px;"/></p>
-
-<p><footer class="source">Pilt: <a href="http://themedicalbiochemistrypage.org/signal-transduction.php#rtk">themedicalbiochemistrypage.org</a></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-4" style="background:;">
-  <hgroup>
-    <h2>Mutatsioonid kasvufaktorite retseptorites põhjustavad ligand-sõltumatut aktivatsiooni</h2>
-  </hgroup>
-  <article data-timings="">
-    <p><img src="assets/img/gf-muts.jpg" alt="gfmuts"></p>
-
-<p><footer class="source">The Biology of Cancer (Garland Science 2007)</footer></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-5" style="background:;">
-  <hgroup>
-    <h2>Landscape of recurrent kinase fusions in solid tumours</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <p><img src="http://media.cellsignal.com/www/images/science/diseases/cancer/proteins/alk-ros1/ros-alk-wb-pathway.gif" alt="EML4ALK"></p>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://www.nature.com/ncomms/2014/140910/ncomms5846/images/ncomms5846-f1.jpg" style="width:480px;"></p>
-
-<p><footer class="source">Pildid: vasem, cellsignal.com; parem, <a href="http://www.nature.com/ncomms/2014/140910/ncomms5846/full/ncomms5846.html">Landscape of recurrent kinase fusions in solid tumours</a></footer></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="segue dark nobackground" id="slide-6" style="background:;">
-  <hgroup>
-    <h2>Kasvufaktorid käivitavad signaalirajad</h2>
-  </hgroup>
-  <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-7" style="background:;">
-  <hgroup>
-    <h2>Rakkude kasv ja jagunemine sõltub kasvufaktoritest</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>10000 inimese endoteelirakku (HUVEC) külvati  96-welli ja kasvatati 20%FBS söötmes </li>
-<li>Seejärel rakud sünkroniseeriti rakutsükli G0 faasis, näljutades neid 1%FBS sisaldavas söötmes</li>
-<li>5%FBS ja VEGF lisamine vabastas rakud blokist ja indutseeris nad jagunema</li>
-<li>Kuidas paneb kasvufaktorite seostumine ja retseptori aktivatsioon käima rakkude jagunemise-kasvu masinavärgi?</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="figure/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
-
-<p><footer class="source">Andmed: Anne Pink, Taavi Päll</footer></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-8" style="background:;">
-  <hgroup>
-    <h2>Signaaliülekande rada jõuab plasmamembraanist tuuma</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Kasvufaktorite seostumine retseptoritele käivitab rakus kiire ja vahetu vastuse</li>
-<li>Kasvufaktorite poolt indutseeritakse minutite jooksul kiirelt teatud geenide transkriptsioon</li>
-<li>uute valkude sünteesi ei toimu/ei lähe vaja.</li>
-<li>Selliseid kiirelt ekspresseeritavaid geene nimetatakse <strong>varajasteks geenideks (<em>immediate early genes</em>)</strong>.</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="assets/img/1471-2199-5-13-2.jpg" style="width:300px;"></p>
-
-<p><footer class="source">Pilt: adapteeritud <a href="http://www.biomedcentral.com/1471-2199/5/13">Expression profiling of serum inducible genes identifies a subset of SRF target genes...</a></footer></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-9" style="background:;">
-  <hgroup>
-    <h1>Varajasi geene on kokku kusagil sadakond.</h1>
-  </hgroup>
-  <article data-timings="">
-    <table><thead>
-<tr>
-<th>Geen</th>
-<th>Asukoht rakus</th>
-<th>Funktsioon</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>fos</td>
-<td>tuum</td>
-<td>AP-1 TF komponent</td>
-</tr>
-<tr>
-<td>junB</td>
-<td>tuum</td>
-<td>AP-1 TF komponent</td>
-</tr>
-<tr>
-<td>egr-1</td>
-<td>tuum</td>
-<td>tsinksõrm TF</td>
-</tr>
-<tr>
-<td>nur77</td>
-<td>tuum</td>
-<td>steroidretseptor</td>
-</tr>
-<tr>
-<td>Srf-1</td>
-<td>tuum</td>
-<td>TF</td>
-</tr>
-<tr>
-<td>myc</td>
-<td>tuum</td>
-<td>bHLH TF</td>
-</tr>
-<tr>
-<td>\(\beta\)-aktiin</td>
-<td>tsütoplasma</td>
-<td>tsütoskelett</td>
-</tr>
-<tr>
-<td>\(\gamma\)-aktiin</td>
-<td>tsütoplasma</td>
-<td>tsütoskelett</td>
-</tr>
-<tr>
-<td>tropomüosiin</td>
-<td>tsütoplasma</td>
-<td>tsütoskelett</td>
-</tr>
-<tr>
-<td>fibronektiin</td>
-<td>rakuväline</td>
-<td>ECM</td>
-</tr>
-<tr>
-<td>glükoositransporter</td>
-<td>plasmamembraan</td>
-<td>glükoosiimport</td>
-</tr>
-<tr>
-<td>JE</td>
-<td>rakuväline</td>
-<td>tsütokiin</td>
-</tr>
-<tr>
-<td>KC</td>
-<td>rakuväline</td>
-<td>tsütokiin</td>
-</tr>
-</tbody></table>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-10" style="background:;">
-  <hgroup>
-    <h2>Signaalirajad on rakus ootel ning &#39;<em>ready to fire</em>&#39;</h2>
-  </hgroup>
-  <article data-timings="">
-    <ul>
-<li>Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga tsükloheksimiidi (valgu sünteesi inhibiitori) juuresolekul toimub varajaste geenide transkriptsioon normaalselt, </li>
-<li>viidates, et rakus istuvad seega mingid transkriptsioonifaktorid ja ootavad signaali mobiliseerumiseks.</li>
-<li>Lisaks varaste geenide transkriptsiooni indutseerimisele
-
-<ul>
-<li>valgusünteesi kiirus suureneb (eIF4E ja eIF4G fosforüülimine)</li>
-<li>vahetud muutused raku morfoloogias ja migratsioonis</li>
-</ul></li>
-</ul>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-11" style="background:;">
-  <hgroup>
-    <h2>Lisaks muutustele geeniekspressioonis toimuvad muutused ka raku morfoloogias</h2>
-  </hgroup>
-  <article data-timings="">
-    <p><img src="http://d247mjxbujv0d8.cloudfront.net/content/ajpheart/277/5/H2038/F4.large.jpg?width=800&amp;height=600&amp;carousel=1" alt="factin"></p>
-
-<p><footer class="source">Pilt: <a href="http://ajpheart.physiology.org/content/277/5/H2038">VEGF induced rapid formation of actomyosin stress fibers</a></footer></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-12" style="background:;">
-  <hgroup>
-    <h2>Varajastele geenidele järgneb sekundaarsete geenide ekspressiooni laine</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <p><img src="http://www.nature.com/nrm/journal/v12/n2/images/nrm3048-f2.jpg" style="width:480px;"></p>
-
-</div>
-<div style='float:right;width:48%;'>
-  <ul>
-<li>Pidevalt jagunevates rakkudes on paljud varajased geenid negatiivse tagasiside mehhanismide tõttu maha reguleeritud</li>
-</ul>
-
-<p><footer class="source">Pilt: <a href="http://www.nature.com/nrm/journal/v12/n2/full/nrm3048.html">Feedback regulation of EGFR signalling: decision making by early and delayed loops</a></footer></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="segue dark nobackground" id="slide-13" style="background:;">
-  <hgroup>
-    <h2>Raku signaaliradade toimimine</h2>
-  </hgroup>
-  <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-14" style="background:;">
-  <hgroup>
-    <h2>Ras valk, osa signaalirajast</h2>
-  </hgroup>
-  <article data-timings="">
-    <ul>
-<li>Onkogeenselt aktiveeritud <strong>Ras</strong> (GTPaas) omab rakkudele samasugust transfomeerivat toimet kui <strong>sis</strong> (kasvufaktor) ja <strong>erbB</strong> (retseptor) onkovalgud</li>
-<li>Kuidas need onkogeenid omavahel seotud on?</li>
-</ul>
-
-<p><img src="assets/img/sis-erb-ras-pthwy.png" alt="sisras"></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-15" style="background:;">
-  <hgroup>
-    <h2>Son of sevenless</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Kasvufaktorite retseptoritest lähtuva signalisatsiooni lahendamine sai alguse <em>Drosophila</em> geneetikast.</li>
-<li><em>Drosophila</em> silma ommatiidide arengut reguleeriv geen <strong>sevenless</strong> osutus türosiinkinaas retseptoriks, EGF retseptori homoloogiks.</li>
-<li>Edasine geneetiline komplementatsioon identifitseeris signaalirajas &#39;allpool&#39; toimiva geeni <strong><em>son of sevenless</em>, sos</strong>, mis osutus pärmi G valkude guaniin nuleotiidi vahetus faktorile (GEF) sarnaseks valguks.</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://starklab.slu.edu/sev.jpg" style="width: 360px;"/></p>
-
-<p><em>Drosophila</em> sevenless mutandil puudub ommatiididest seitsmes rakk ehk on ainult kuus rakku</p>
-
-<p><footer class="source">Pilt: <a href="http://starklab.slu.edu">Drosophila sevenless mutant</a>  </footer></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-16" style="background:;">
-  <hgroup>
-    <h2>Mis on sevenless-sos signaaliraja biokeemiline alus?</h2>
-  </hgroup>
-  <article data-timings="">
-    <ul>
-<li>Lisaks identifiseeriti <em>Drosophilas</em> geneetiliselt signaalirajas sevenless ja sos vahel toimivad  adaptervalgud <strong>Shc, Grb2 ja Crk</strong></li>
-</ul>
-
-<p><img src="assets/img/signaling_cascade.png"></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-17" style="background:;">
-  <hgroup>
-    <h2>Kuidas RTK fosforülatsioon tekitab signalisatsiooni?</h2>
-  </hgroup>
-  <article data-timings="">
-    <h3>Kaks alternatiivset hüpoteesi</h3>
-
-<ol>
-<li><p>p-RTK fosforüleerib ja aktiveerib rakus oma substraate</p>
-
-<ul>
-<li>aktiveeritud substraadid signaliseerivad</li>
-<li>RTK autofosforülatsioon sekundaarse tähendusega</li>
-</ul></li>
-<li><p>p-RTK seob teisi signaalvalke ja muudab nende lokalisatsiooni</p>
-
-<ul>
-<li>teiste signaalvalkude sisemine aktiivsus ei muutu</li>
-<li>moodustuvad signaliseerimiseks soodsad valgukompleksid</li>
-</ul></li>
-</ol>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-18" style="background:;">
-  <hgroup>
-    <h2>SH domäänid vahendavad valkude relokatsiooni</h2>
-  </hgroup>
-  <article data-timings="">
-    <p>SH - Src homoloogsed</p>
-
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li><strong>SH1</strong> kinaasne domään (<em>Src homology 1</em>).</li>
-<li><strong>SH2</strong> fosfotürosiin peptiidide dokkimiskoht
-
-<ul>
-<li>inimese genoomis 121 SH2 domääni 115 valgus</li>
-</ul></li>
-<li><strong>SH3</strong> proliinirikkaid järjestusi sisaldavate järjestuste dokkimiskoht
-
-<ul>
-<li>inimese genoomis ~300 SH3 domääni</li>
-</ul></li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://www.nature.com/nrm/journal/v2/n6/images/nrm0601_467a_f3.gif" alt="Drawing" style="width: 460px;"/></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-19" style="background:;">
-  <hgroup>
-    <h2>Valkude dokkimiskohad</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <p><img src="http://www.nature.com/nrm/journal/v3/n3/images/nrm759-f1.gif" alt="sh2"></p>
-
-</div>
-<div style='float:right;width:48%;'>
-  <ul>
-<li>SH2/3 pasteeritud väga erinevatesse valgulistesse kontekstidesse
-
-<ul>
-<li>puhtalt adaptorvalgud ilma katalüütiliste domäänideta (Shc, Grb2)</li>
-<li>katalüütilisi domääne sisaldavad valgud (Src)</li>
-</ul></li>
-</ul>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-20" style="background:;">
-  <hgroup>
-    <h2>RTK tsütoplasma domään sisaldab fosfo sidumissaite erinevatele valkudele</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>RTK-dega assotseeruvate valkude biokeemiline mitmekesisus seletab kasvufaktorite võimet aktiveerida erinevaid signaaliradu.</li>
-</ul>
-
-<p><img src="assets/img/nrm1960-f4.jpg" style="width: 460px;"/></p>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="assets/img/1-s2.0-S0968000412001934-gr3.jpg" alt="pdgfr and vegfr cytplasmic docking sites"></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-21" style="background:;">
-  <hgroup>
-    <h2>Olulisemad mitogeense signalisatsiooniga seotud dokkimisdomäänid</h2>
-  </hgroup>
-  <article data-timings="">
-    <table><thead>
-<tr>
-<th>Domään</th>
-<th>Ligand</th>
-<th>Domääni kandvaid valke</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>SH2</td>
-<td>fosfotürosiin</td>
-<td>Src (kinaas), Grb2 (adapter), Shc (adapter), SHP2 (fosfataas), Cbl (ubikvitiini ligaas)</td>
-</tr>
-<tr>
-<td>PTB</td>
-<td>fosfotürosiin</td>
-<td>Shc, IRS-1 (insuliini RTK adapter)</td>
-</tr>
-<tr>
-<td>SH3</td>
-<td>proliinirikkad järestused</td>
-<td>Src, Crk (adapter), Grb2, Cdc25 (CDK fosfataas), Bad (apoptoosi regulator), Raf (ser/thr kinaas), PKC (<em>protein kinase C</em>, ser/thr kinaas)</td>
-</tr>
-<tr>
-<td>Bromo</td>
-<td>atsetüleeritud lüsiin</td>
-<td>P/CAF (transkriptsiooni kofaktor), kromatiinivalgud</td>
-</tr>
-<tr>
-<td>PH</td>
-<td>fosfoinositool</td>
-<td>PLC-\(\delta\) (fosfolipaas C), Akt/PKB (ser/thr kinaas)</td>
-</tr>
-</tbody></table>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-22" style="background:;">
-  <hgroup>
-    <h2>sevenless-sos signaaliraja biokeemiline alus</h2>
-  </hgroup>
-  <article data-timings="">
-    <p><img src="assets/img/251347598805976.jpg" alt="sos-sevenless"></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-23" style="background:;">
-  <hgroup>
-    <h2>SH2 grupid vahendavad Ras aktivatsiooni RTK-de poolt</h2>
-  </hgroup>
-  <article data-timings="">
-    <ul>
-<li>türosiinkinaas retseptor-P \(\rightarrow\) SH2-Shc-P \(\rightarrow\) SH2-Grb2-SH3 \(\rightarrow\) proline-rich-Sos \(\rightarrow\) Ras</li>
-<li>türosiinkinaas retseptor-P \(\rightarrow\) SH2-Grb2-SH3 \(\rightarrow\) proline-rich-Sos \(\rightarrow\) Ras</li>
-</ul>
-
-<p><img src="http://www.nature.com/nrm/journal/v13/n1/images/nrm3255-f1.jpg" alt="trkRas"></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-24" style="background:;">
-  <hgroup>
-    <h2>Ras valgud</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li><strong>Ras valgud toimivad GDP/GTP-sõltuvate lülititena.</strong></li>
-<li>Ras-GDP: inaktiivne/Ras-GTP: aktiivne.</li>
-<li>Normaalselt on rakkudes Ras seotud GDP-ga ja  mitteaktiivne.</li>
-<li>Rakuvälised stiimulid (nt. TGF-\(\alpha\)) põhjustavad transientse Ras-i aktivatsiooni.</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://www.frontiersin.org/files/Articles/57883/fimmu-04-00239-HTML/image_m/fimmu-04-00239-g001.jpg" style="width: 460px;"/></p>
-
-<p><footer class="source">Veel: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3354961/">A comprehensive survey of Ras mutations in cancer</a>, <a href="http://www.pnas.org/content/105/17/6260.full">The GAP arginine finger movement into the catalytic site of Ras increases the activation entropy</a> </footer></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-25" style="background:;">
-  <hgroup>
-    <h2>Mutantne Ras on lakkamatult aktiivne</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Ras toimib molekulaarse lülitina, mis aktiveeritakse GTP seostumisel</li>
-<li>Ras-i sisse ja välja lülitamist reguleerivad GEF (<em>guanine nucleotide exchange factor</em>) ja GAP (<em>GTPase-activating protein</em>) valgud</li>
-<li>GAP valgu seostumine tõstab Ras GTP hüdrolüüsi kiirust ~\(10^{5}\) korda</li>
-<li>Onkogeenselt aktiveeritud Ras mutantidel (nt. G12D, G12V) on GTP hüdrolüüs (väljalülitumine) rikutud.</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="assets/img/148-RasProtein_5p21.jpg" alt="Ras protein with a non-hydrolyzable analogue of GTP."></p>
-
-<p><a href="http://pdb101.rcsb.org/motm/148">April 2012 Molecule of the Month</a></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-26" style="background:;">
-  <hgroup>
-    <h2>Ras isovormid</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Ras-i on kolm geeni: <strong>K-Ras, H-Ras, N-Ras</strong></li>
-<li>K-Ras-il on kaks splaissingu isovormi:K-Ras-4A/B</li>
-<li>Ras valkude G-domääni struktuurid on identsed, </li>
-<li>kuid C-terminaalsed hüpervariaablid domäänid erinevad.</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr3.jpg" alt=""></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-27" style="background:;">
-  <hgroup>
-    <h2>Ras isovormide sagedus vähis</h2>
-  </hgroup>
-  <article data-timings="">
-    <p>Ras mutatsioonid on sagedased. K-Ras on enamasti suveräänne liider (va. N-RAS melanoomis).</p>
-
-<table><thead>
-<tr>
-<th>Primaarne kude</th>
-<th>KRAS (%)</th>
-<th>HRAS (%)</th>
-<th>NRAS (%)</th>
-<th>Kokku (%)</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>pankreas</td>
-<td>71</td>
-<td>0</td>
-<td>&lt;1</td>
-<td>71</td>
-</tr>
-<tr>
-<td>koolon</td>
-<td>35</td>
-<td>1</td>
-<td>6</td>
-<td>42</td>
-</tr>
-<tr>
-<td>peensool</td>
-<td>35</td>
-<td>0</td>
-<td>&lt;1</td>
-<td>35</td>
-</tr>
-<tr>
-<td>sapijuha</td>
-<td>26</td>
-<td>0</td>
-<td>2</td>
-<td>28</td>
-</tr>
-<tr>
-<td>endomeetrium</td>
-<td>17</td>
-<td>&lt;1</td>
-<td>5</td>
-<td>22</td>
-</tr>
-<tr>
-<td>kops</td>
-<td>19</td>
-<td>&lt;1</td>
-<td>1</td>
-<td>20</td>
-</tr>
-<tr>
-<td>nahk (melanoom)</td>
-<td>1</td>
-<td>1</td>
-<td>18</td>
-<td>20</td>
-</tr>
-<tr>
-<td>emakakael</td>
-<td>8</td>
-<td>9</td>
-<td>2</td>
-<td>19</td>
-</tr>
-<tr>
-<td>kusejuha</td>
-<td>5</td>
-<td>10</td>
-<td>1</td>
-<td>16</td>
-</tr>
-</tbody></table>
-
-<p>Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi <strong>neurofibromiini</strong> (Ras-GAP) somaatiliste deletsioonide: 14% glioblastoom, 13-14% melanoom, 8-10% kopsu adenokartsinoom, jne.</p>
-
-<div style='float:left;width:48%;' class='centered'>
-  
-</div>
-<div style='float:right;width:48%;'>
-  
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-28" style="background:;">
-  <hgroup>
-    <h2>Ras aktivatsioonil vabaneb tema &#39;<em>effector loop</em>&#39;</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li><strong>Receptacle for effectors</strong> comprises the so-called &#39;SWITCH REGIONS&#39;, which are three short segments that border the nucleotide-binding site. 
-
-<ul>
-<li><strong>P-loop</strong> coordinates nucleotide binding, </li>
-<li><strong>switch I and II</strong> regions make up a mobile binding surface that conforms to the nature of a bound nucleotide</li>
-</ul></li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="assets/img/rasloop.jpg" alt=""></p>
-
-<p><footer class="source">Pilt: doi:10.1038/nrm1229</footer></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-29" style="background:;">
-  <hgroup>
-    <h2>Ras aktiveerib kolm põhilist signaalirada</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <p>Aktiveeritud Ras seotub ja aktiveerib oma effektorvalke:</p>
-
-<ul>
-<li><strong>Raf kinaas</strong></li>
-<li><strong>Fosfatidüülinositool 3 kinaas, PI3K</strong></li>
-<li><strong>RalGDS (Ral GEF)</strong></li>
-</ul>
-
-<p><img src="http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr1.jpg" alt=""></p>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="assets/img/RasPI3K.jpg" alt=""></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-30" style="background:;">
-  <hgroup>
-    <h2>MAPK rada</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Ras-Raf-MEK-ERK signaalirada</li>
-<li>MAPK rada aktiveeritkse vastusena kasvufaktorite stimulatsioonile, </li>
-<li>Paljud MAPK raja substraadid on transkriptioonifacktorid (Ets, Elk-1 SAP-1) aga ka valgusüntees üle Mnk1 kinaasi vahendatud eIF4E aktivatsiooni</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://clincancerres.aacrjournals.org/content/16/13/3329/F1.large.jpg" style="width: 400px;"/></p>
-
-<p><footer class="source"></footer></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-31" style="background:;">
-  <hgroup>
-    <h2>MAPK raja onkogeenne aktivatsioon</h2>
-  </hgroup>
-  <article data-timings="">
-    <p><img src="http://www.nature.com/onc/journal/v26/n22/images/1210422f1.jpg" alt=""></p>
-
-<p><footer class="source">FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the treatment of cancer. P J Roberts and C J Der</footer></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-32" style="background:;">
-  <hgroup>
-    <h2>Fosfatidüülinositool 3 kinaas, PI3K rada</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <p><img src="assets/img/RasPI3K.jpg" alt=""></p>
-
-<p>Ras - PI3K\(\gamma\) kompleks</p>
-
-</div>
-<div style='float:right;width:48%;'>
-  <ul>
-<li>Ras seostumisel PI3Kinaasile aktiveeritakse selle katalüütline domään. </li>
-<li>PI3K-\(\gamma\) on lipiidkinaas. </li>
-<li>PI3K-\(\gamma\) hakkab fosforüleerima plasmamembraanis olevaid fosfatidüül-inositool-4,5-difosfaate (PIP2). </li>
-</ul>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-33" style="background:;">
-  <hgroup>
-    <h2>PI3K fosforüülib PIP2&gt;PIP3</h2>
-  </hgroup>
-  <article data-timings="">
-    <p><img src="http://www.babraham.ac.uk/files/large/f4d5128f14fe6cb" alt=""></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-34" style="background:;">
-  <hgroup>
-    <h2>Akt kinaas seostub üle oma PH domääni plasmamebraanile</h2>
-  </hgroup>
-  <article data-timings="">
-    <ul>
-<li>PIP3 vahendab PH-domääni sisaldava Akt kinaasi relokatsiooni plasmamembraanile </li>
-</ul>
-
-<p><img src="assets/img/plextr.jpg" alt=""></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-35" style="background:;">
-  <hgroup>
-    <h2>Akt/PKB rada mõjutab rakkude ellujäämist, jagunemist ja kasvu</h2>
-  </hgroup>
-  <article data-timings="">
-    <table><thead>
-<tr>
-<th>Bioloogiline effekt</th>
-<th>Akt/PKB substraat</th>
-<th>Funktsionaalne tagajärg</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>Anti-apoptootiline</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>Bad (pro-apopootline)</td>
-<td>inhibitsioon</td>
-</tr>
-<tr>
-<td></td>
-<td>kaspaas-9 (pro-apopootline)</td>
-<td>inhibitsioon</td>
-</tr>
-<tr>
-<td></td>
-<td>I$\kappa$B kinaas (anti-apopootline)</td>
-<td>aktivatsioon</td>
-</tr>
-<tr>
-<td></td>
-<td>FOXO1 TF (pro-apopootline)</td>
-<td>inhibitsioon</td>
-</tr>
-<tr>
-<td></td>
-<td>Mdm2 (anti-apopootline)</td>
-<td>aktivatsioon</td>
-</tr>
-<tr>
-<td>Rakkude jagunemine</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>GSK-3\(\beta\) (anti-proliferatiivne)</td>
-<td>inhibitsioon</td>
-</tr>
-<tr>
-<td></td>
-<td>FOXO4 TF (anti-proliferatiivne)</td>
-<td>inhibitsioon</td>
-</tr>
-<tr>
-<td></td>
-<td>p21 (anti-proliferatiivne)</td>
-<td>inhibitsioon</td>
-</tr>
-<tr>
-<td>Kasv (suurus)</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>Tsc2 (kasvu pidurdav)</td>
-<td>inhibitsioon</td>
-</tr>
-</tbody></table>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-36" style="background:;">
-  <hgroup>
-    <h1>Genetic Alterations in the PI3K/Akt Pathway in Cancer</h1>
-  </hgroup>
-  <article data-timings="">
-    <table><thead>
-<tr>
-<th>Gene</th>
-<th>Type of Alteration</th>
-<th>Tumor Lineage</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>PTEN</td>
-<td>Loss-of-function by somatic mutation</td>
-<td>Brain, prostate, endometrium</td>
-</tr>
-<tr>
-<td></td>
-<td>Germline mutation (in 80% of Cowden Disease)</td>
-<td>Cowden disease: Increased risk for breast, thyroid, genitourinary and endometrial cancer</td>
-</tr>
-<tr>
-<td></td>
-<td>Promoter methylation</td>
-<td>Melanoma, breast, colon</td>
-</tr>
-<tr>
-<td></td>
-<td>Loss of heterozygosity</td>
-<td>Prostate, melanoma, thyroid, breast, pancreas, ovary, brain, bladder, endometrium, cervix, head and neck, kidney, lung</td>
-</tr>
-<tr>
-<td>p110α</td>
-<td>Gain-of-function by somatic mutation</td>
-<td>Colon, breast, brain, ovary</td>
-</tr>
-<tr>
-<td></td>
-<td>Amplification</td>
-<td>Ovary, gastric, lung, cervix</td>
-</tr>
-<tr>
-<td>p85</td>
-<td>Gain-of-function by somatic mutation</td>
-<td>Brain, colon, ovary</td>
-</tr>
-<tr>
-<td>AKT1</td>
-<td>Gain-of-function by somatic mutation</td>
-<td>Breast, colorectal, ovary</td>
-</tr>
-<tr>
-<td>AKT2</td>
-<td>Amplification</td>
-<td>Ovary, lymphoma, pancreas</td>
-</tr>
-<tr>
-<td></td>
-<td>Mutation</td>
-<td>Colorectal</td>
-</tr>
-<tr>
-<td>PDK1</td>
-<td>Mutation</td>
-<td>Colorectal</td>
-</tr>
-<tr>
-<td>TSC1/2</td>
-<td>Loss-of-function by mutation (occasionally with concomitant loss of heterozygosity for the wild type allele)</td>
-<td>Tuberous sclerosis (hamartomas of the skin, brain and kidney; rare progression to malignancy)</td>
-</tr>
-<tr>
-<td>TSC1</td>
-<td>Mutation</td>
-<td>Bladder</td>
-</tr>
-</tbody></table>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-37" style="background:;">
-  <hgroup>
-    <h2>Ras-RalGDS rada</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Ral-GDS(<em>guanine nucleotide dissociation stimulator</em>, GEF) aktiveerib RalA ja RalB GTPaasid</li>
-<li>Ral effektorid on RalBP1 mis on Rac/Cdc42 GAP, Sec5 ja Exo84 mis on eksotsüst-kompleksi subühikud, Y-box transkriptsioonifaktor ZONAB</li>
-<li> Ral rada reguleerib seega rakkude morfoloogiat, kasvufaktorite retseptorite endotsütoosi, vesikulaarset transporti  ja transkriptsioonifaktoreid</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://www.nature.com/nrc/journal/v8/n2/images/nrc2296-f1.jpg" alt="ral"></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-38" style="background:;">
-  <hgroup>
-    <h2>Jak-STAT rada signaliseerib otse tuuma</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Interferooni (IFN), erütropietiini (EPO) ja trombopoietiini (TPO) retseptorid moodustavad mittekovalentse kompleksi Jak türosiin kinaasidega</li>
-<li>Ligandi seostumisel rist-aktiveeritakse kinaasid ja fosforüleeritakse retseptorite sabad, millele seostuvad üle SH2 domäänide STAT transkriptsioonifaktorid</li>
-<li>Seostunud STAT-ide fosforüleerimisel moodustavad need üle SH2 domäänide dimeeri ja translokeeruvad tuuma</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://blogs.shu.edu/cancer/files/2014/08/figure_06_22.jpg" style="width:460px"></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-39" style="background:;">
-  <hgroup>
-    <h2>Jak-STAT vähis</h2>
-  </hgroup>
-  <article data-timings="">
-    <ul>
-<li>STAT aktiveerivad muuseas mitmeid rakkude jagunemiseks, ellu jäämiseks ja angiogeneesiks oluliste geenide transkriptsiooni: myc, tsükliinid D2 ja D3 ja anti-apoptootiline Bcl-XL, VEGF </li>
-<li>JAK2 V617F mutatsioon multimüeloomides</li>
-<li>STAT3 konstitutiivne aktivatsioon mitmetes kasvajates, sh. melanoomis, rinnakasvajates, pea-kaela lamerakulistes kartsinoomides</li>
-<li>STAT3 aktivatsioon vahendatud ilmselt üle Src-i</li>
-</ul>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-40" style="background:;">
-  <hgroup>
-    <h2>Integriini osalevad kasvufaktorite signalisatsioonis</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Aktiveeritud integriinidele seostunud FAK (<em>focal adhesion kinase</em>) fosforüleerimisel Src poolt tekivad FAK-ile SH2 dokkimiskohad, sh Grb2, Shc, PI3K, PLC-y</li>
-<li>FAK seostunud Grb2 seob ka Sos-i on seega võimeline aktiveerima Ras-Raf rada </li>
-<li>Integriin vahendatud Ras aktivatsioon võib seletada miks transformatsiooniga kaasneb adhesioon sõltumatu kasv</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://www.nature.com/ncb/journal/v4/n4/images/ncb0402-e83-f1.gif" alt="ab"></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-41" style="background:;">
-  <hgroup>
-    <h2>Wnt-\(\beta\)-kateniin rada</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>Rada toimib β-kateniini stabiilsuse ja transkriptsioonilise aktiivsuse kontrollina</li>
-<li>Ligandi puudumisel toimub Axini kompleks vahendatud \(\beta\)-kateniini lagundamine</li>
-<li>Axin kompleks: struktuurvalgud Axin ja tuumor suppressor <em>adenomatous polyposis coli</em> (APC), casein kinase 1 (CK1) ja glycogen synthase kinase 3 (GSK3)</li>
-<li>CK1 ja GSK3 fosforüleerivad \(\beta\)-kateniini N-terminusest mistõttu selle tunneb ära \(\beta\)-Trcp E3 ubiquitin ligaasi subühik ja  \(\beta\)-kateniin ubiquitineeritakse ja lagundatakse proteasoomis</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="http://www.nature.com/nrg/journal/v5/n9/images/nrg1427-f1.jpg" style="width:460px"></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-42" style="background:;">
-  <hgroup>
-    <h2>Wnt raja mutatsioonid vähis</h2>
-  </hgroup>
-  <article data-timings="">
-    <table><thead>
-<tr>
-<th>Affected gene</th>
-<th>DNA/mRNA alteration</th>
-<th>Functional outcome</th>
-<th>Cancer type</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>CTNNBl (b-catenin)</td>
-<td>Missense/in-frame deletion</td>
-<td>Enhanced protein stability</td>
-<td>Hepatocellular/Medulloblastoma</td>
-</tr>
-<tr>
-<td>APC (APC)</td>
-<td>Truncation</td>
-<td>Reduced regulatory activity</td>
-<td>Colorectal/gastric</td>
-</tr>
-<tr>
-<td>Axins (Axin I, Axin II)</td>
-<td>Truncation/missense</td>
-<td>Reduced regulatory activity</td>
-<td>Hepatocellular/colorectal</td>
-</tr>
-<tr>
-<td>CREBP(CBP)</td>
-<td>Truncation/ missense</td>
-<td>Inactive acetyltransferase</td>
-<td>Lymphoma/leukemia</td>
-</tr>
-<tr>
-<td>GSK3b</td>
-<td>Missplicing, in-frame deletion</td>
-<td>Inactive kinase</td>
-<td>Leukemia</td>
-</tr>
-<tr>
-<td>LRP5</td>
-<td>Missplicing, in-frame deletion</td>
-<td>Loss of repression by DKK1</td>
-<td>Breast/parathyroid</td>
-</tr>
-<tr>
-<td>TCF7L2 (TCF4)</td>
-<td>Missense/deletion/truncation</td>
-<td>Loss of repression</td>
-<td>Colorectal</td>
-</tr>
-<tr>
-<td>TCF7L2 (TCF4)</td>
-<td>Fusion with VT11A gene</td>
-<td>Unclear</td>
-<td>Colorectal</td>
-</tr>
-<tr>
-<td>FAB123B (WTX)</td>
-<td>Truncation/deletion</td>
-<td>Loss of function</td>
-<td>Wilm’s tumor</td>
-</tr>
-</tbody></table>
-
-<p><footer class="source">Tabel: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3331705/">Wnt Signaling in Cancer</a></footer></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-43" style="background:;">
-  <hgroup>
-    <h2>Hedgehog rada</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li>HH ligandid, imetajatel sonic hedgehog (SHH), Indian hedgehog (IHH) ja desert hedgehog (DHH) seostuvad patched 1 (PTCH1) retseptorile</li>
-<li>Ligandi seostumine PTCH1-le vabastab smoothened (SMO) transmembraanse valgu inhibitsioonist </li>
-<li>SMO signalisatsioon vabastab GLI1, GLI2 ja GLI3 transkriptsioonifaktorid inhibitsioonist tuumorsuppressorvalgu suppressor of fused (SUFU) poolt </li>
-<li>GLI1, GLI2 ja GLI3 transporditakse tuuma</li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <p><img src="https://www.dovepress.com/cr_data/article_fulltext/s60000/60262/img/fig1.jpg" style="width:460px"></p>
-
-<p><footer class="source">Pilt: <a href="https://www.dovepress.com/hedgehog-gli-signaling-in-basal-cell-carcinoma-and-other-skin-cancers--peer-reviewed-fulltext-article-RRB">Hedgehog-Gli signaling in basal cell carcinoma and other skin cancers</a></footer></p>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-44" style="background:;">
-  <hgroup>
-    <h2>Hedgehog rada vähis</h2>
-  </hgroup>
-  <article data-timings="">
-    <ul>
-<li>Imetajatel on SUFU Gli aktiivsuse peamine regulator</li>
-<li>Pärilikud SUFU mutatsioone on leitud medulloblastoomi, meningioomi patsientidel ja on seotud Gorlini sündroomiga, millega kaasneb kõrge risk saada basaalrakuline kartsinoom </li>
-<li>SUFU somaatilisi mutatsioone ja deleteerumist on leitud medulloblastoomides, kondrosarkoomides ja rhabdomüosarkoomides</li>
-</ul>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-45" style="background:;">
-  <hgroup>
-    <h2>HH raja mutatsioonid nahavähkides</h2>
-  </hgroup>
-  <article data-timings="">
-    <table><thead>
-<tr>
-<th>Gene</th>
-<th>Mutation type</th>
-<th>Tumor type</th>
-<th>Percent mutated samples</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>Ptch I</td>
-<td>Loss-of-function, nonsense</td>
-<td>BCC</td>
-<td>40-67</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense, nonsense, splice site</td>
-<td>BCC</td>
-<td>75</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense, nonsense</td>
-<td>cSCC</td>
-<td>17</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense, nonsense, homozygous deletion</td>
-<td>Melanoma</td>
-<td>3-5.5</td>
-</tr>
-<tr>
-<td>SMO</td>
-<td>Gain-of-function, missense</td>
-<td>BCC</td>
-<td>9.5-20.6</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense</td>
-<td>cSCC</td>
-<td>7.7</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense, nonsense, amplification</td>
-<td>Melanoma</td>
-<td>2.2-8</td>
-</tr>
-<tr>
-<td>SUFU</td>
-<td>Missense</td>
-<td>BCC</td>
-<td>4.7</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense</td>
-<td>cSCC</td>
-<td>2.6</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense</td>
-<td>Melanoma</td>
-<td>0.7-3.3</td>
-</tr>
-<tr>
-<td>Shh</td>
-<td>Translocation</td>
-<td>BCC</td>
-<td>One case</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense, frameshift</td>
-<td>cSCC</td>
-<td>17.9</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense, amplification</td>
-<td>Melanoma</td>
-<td>0-4.7</td>
-</tr>
-</tbody></table>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-46" style="background:;">
-  <hgroup>
-    <h1>tabel jätkub</h1>
-  </hgroup>
-  <article data-timings="">
-    <table><thead>
-<tr>
-<th>Gene</th>
-<th>Mutation type</th>
-<th>Tumor type</th>
-<th>Percent mutated samples</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>HHIP</td>
-<td>Missense, nonsense, amplification</td>
-<td>Melanoma</td>
-<td>6.6-9.1</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense</td>
-<td>cSCC</td>
-<td>30.7</td>
-</tr>
-<tr>
-<td>Gli1</td>
-<td>Missense, nonsense, amplification</td>
-<td>Melanoma</td>
-<td>1.1-7.2</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense, nonsense</td>
-<td>cSCC</td>
-<td>23</td>
-</tr>
-<tr>
-<td>Gli2</td>
-<td>Missense, nonsense, amplification</td>
-<td>Melanoma</td>
-<td>2.2-12.2</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense, nonsense</td>
-<td>cSCC</td>
-<td>25.6</td>
-</tr>
-<tr>
-<td>Gli3</td>
-<td>Missense, splice site, amplification</td>
-<td>Melanoma</td>
-<td>3.3-7.2</td>
-</tr>
-<tr>
-<td></td>
-<td>Missense, nonsense</td>
-<td>cSCC</td>
-<td>23</td>
-</tr>
-</tbody></table>
-
-<p><footer class="source">Tabel: <a href="https://www.dovepress.com/hedgehog-gli-signaling-in-basal-cell-carcinoma-and-other-skin-cancers--peer-reviewed-fulltext-article-RRB">Hedgehog-Gli signaling in basal cell carcinoma and other skin cancers</a></footer></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="segue dark nobackground" id="slide-47" style="background:;">
-  <hgroup>
-    <h2>Lingid teistele loengutele</h2>
-  </hgroup>
-  <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-48" style="background:;">
-  <article data-timings="">
-    
-<div style='float:left;width:48%;' class='centered'>
-  <ul>
-<li><a href="http://tpall.github.io/onkobioloogia">Sissejuhatav loeng</a></li>
-<li><a href="http://tpall.github.io/viirused-ja-onkogeenid">Viirused ja onkogeenid</a></li>
-<li><a href="http://tpall.github.io/Retseptorid">Retseptorid</a></li>
-<li><a href="http://tpall.github.io/Signaalirajad">Signaalirajad</a></li>
-<li><a href="http://tpall.github.io/Tuumorsupressorid">Tuumorsupressorgeenid</a></li>
-<li><a href="http://tpall.github.io/Rakutsyklikontroll">Rakutsüklikontroll</a></li>
-</ul>
-
-</div>
-<div style='float:right;width:48%;'>
-  <ul>
-<li><a href="http://tpall.github.io/p53-ja-apoptoos">p53 ja apoptoos</a></li>
-<li><a href="http://tpall.github.io/Immortalisatsioon">Immortalisatsioon</a></li>
-<li><a href="http://tpall.github.io/Tumorigenees">Tumorigenees</a></li>
-<li><a href="http://tpall.github.io/Genoomiterviklikkus">Genoomiterviklikkus</a></li>
-<li><a href="http://tpall.github.io/Mikrokeskkond">Mikrokeskkond</a></li>
-<li><a href="http://tpall.github.io/Metastaas">Metastaasid</a></li>
-<li><a href="http://tpall.github.io/Immuunsus">Immuunsus</a></li>
-<li><a href="http://tpall.github.io/Vahiravim">Vähiravimid</a></li>
-</ul>
-
-</div>
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-    <slide class="backdrop"></slide>
-  </slides>
-  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
-    <ul>
-      <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='NA'>
-         1
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Recap'>
-         2
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Türosiinkinaas retseptorite struktuur'>
-         3
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Mutatsioonid kasvufaktorite retseptorites põhjustavad ligand-sõltumatut aktivatsiooni'>
-         4
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Landscape of recurrent kinase fusions in solid tumours'>
-         5
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=6 title='Kasvufaktorid käivitavad signaalirajad'>
-         6
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=7 title='Rakkude kasv ja jagunemine sõltub kasvufaktoritest'>
-         7
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=8 title='Signaaliülekande rada jõuab plasmamembraanist tuuma'>
-         8
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=9 title='Varajasi geene on kokku kusagil sadakond.'>
-         9
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=10 title='Signaalirajad on rakus ootel ning &#39;<em>ready to fire</em>&#39;'>
-         10
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=11 title='Lisaks muutustele geeniekspressioonis toimuvad muutused ka raku morfoloogias'>
-         11
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=12 title='Varajastele geenidele järgneb sekundaarsete geenide ekspressiooni laine'>
-         12
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=13 title='Raku signaaliradade toimimine'>
-         13
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=14 title='Ras valk, osa signaalirajast'>
-         14
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=15 title='Son of sevenless'>
-         15
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=16 title='Mis on sevenless-sos signaaliraja biokeemiline alus?'>
-         16
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=17 title='Kuidas RTK fosforülatsioon tekitab signalisatsiooni?'>
-         17
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=18 title='SH domäänid vahendavad valkude relokatsiooni'>
-         18
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=19 title='Valkude dokkimiskohad'>
-         19
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=20 title='RTK tsütoplasma domään sisaldab fosfo sidumissaite erinevatele valkudele'>
-         20
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=21 title='Olulisemad mitogeense signalisatsiooniga seotud dokkimisdomäänid'>
-         21
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=22 title='sevenless-sos signaaliraja biokeemiline alus'>
-         22
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=23 title='SH2 grupid vahendavad Ras aktivatsiooni RTK-de poolt'>
-         23
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=24 title='Ras valgud'>
-         24
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=25 title='Mutantne Ras on lakkamatult aktiivne'>
-         25
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=26 title='Ras isovormid'>
-         26
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=27 title='Ras isovormide sagedus vähis'>
-         27
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=28 title='Ras aktivatsioonil vabaneb tema &#39;<em>effector loop</em>&#39;'>
-         28
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=29 title='Ras aktiveerib kolm põhilist signaalirada'>
-         29
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=30 title='MAPK rada'>
-         30
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=31 title='MAPK raja onkogeenne aktivatsioon'>
-         31
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=32 title='Fosfatidüülinositool 3 kinaas, PI3K rada'>
-         32
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=33 title='PI3K fosforüülib PIP2&gt;PIP3'>
-         33
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=34 title='Akt kinaas seostub üle oma PH domääni plasmamebraanile'>
-         34
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=35 title='Akt/PKB rada mõjutab rakkude ellujäämist, jagunemist ja kasvu'>
-         35
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=36 title='Genetic Alterations in the PI3K/Akt Pathway in Cancer'>
-         36
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=37 title='Ras-RalGDS rada'>
-         37
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=38 title='Jak-STAT rada signaliseerib otse tuuma'>
-         38
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=39 title='Jak-STAT vähis'>
-         39
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=40 title='Integriini osalevad kasvufaktorite signalisatsioonis'>
-         40
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=41 title='Wnt-\(\beta\)-kateniin rada'>
-         41
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=42 title='Wnt raja mutatsioonid vähis'>
-         42
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=43 title='Hedgehog rada'>
-         43
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=44 title='Hedgehog rada vähis'>
-         44
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=45 title='HH raja mutatsioonid nahavähkides'>
-         45
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=46 title='tabel jätkub'>
-         46
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=47 title='Lingid teistele loengutele'>
-         47
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=48 title='NA'>
-         48
-      </a>
-    </li>
-  </ul>
-  </div>  <!--[if IE]>
-    <script 
-      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
-    </script>
-    <script>CFInstall.check({mode: 'overlay'});</script>
-  <![endif]-->
-</body>
-  <!-- Load Javascripts for Widgets -->
-  
-  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        processEscapes: true
-      }
-    });
-  </script>
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  </script> -->
-  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
 </script>
-<!-- LOAD HIGHLIGHTER JS FILES -->
-  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
-   
-  </html>
+  </body>
+</html>
