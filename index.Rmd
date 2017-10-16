@@ -13,7 +13,7 @@ output:
 ---
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(echo=FALSE, message=FALSE, dev="svg")
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, dev="svg", fig.align='center')
 ```
 
 
@@ -54,22 +54,15 @@ knitr::include_graphics("assets/img/gf-muts.jpg")
 .footer[The Biology of Cancer (Garland Science 2007)]
 
 ---
-### Landscape of recurrent kinase fusions in solid tumours
+## Landscape of recurrent kinase fusions in solid tumours
 
-.pull-left[
-
-```{r}
+```{r, fig.align='center'}
 knitr::include_graphics("http://media.cellsignal.com/www/images/science/diseases/cancer/proteins/alk-ros1/ros-alk-wb-pathway.gif")
 ```
 
-]
-.pull-right[
-```{r,out.width=480}
-knitr::include_graphics("http://www.nature.com/ncomms/2014/140910/ncomms5846/images/ncomms5846-f1.jpg")
-```
+<br>
 
-]
-.footer[Pildid: vasem, cellsignal.com; parem, [Landscape of recurrent kinase fusions in solid tumours](http://www.nature.com/ncomms/2014/140910/ncomms5846/full/ncomms5846.html)]
+.footer[Pilt: cellsignal.com]
 
 ---
 class: inverse, middle, center
@@ -77,14 +70,20 @@ class: inverse, middle, center
 # Kasvufaktorid käivitavad signaalirajad
 
 ---
-### Rakkude kasv ja jagunemine sõltub kasvufaktoritest 
+## Rakkude kasv ja jagunemine sõltub kasvufaktoritest 
+
+Kuidas paneb kasvufaktorite seostumine ja retseptori aktivatsioon käima rakkude jagunemise-kasvu masinavärgi?
 
 .pull-left[
 
-- 10000 inimese endoteelirakku (HUVEC) külvati  96-welli ja kasvatati 20%FBS söötmes 
-- Seejärel rakud sünkroniseeriti rakutsükli G0 faasis, näljutades neid 1%FBS sisaldavas söötmes
-- 5%FBS ja VEGF lisamine vabastas rakud blokist ja indutseeris nad jagunema
-- Kuidas paneb kasvufaktorite seostumine ja retseptori aktivatsioon käima rakkude jagunemise-kasvu masinavärgi?
+
+
+- 10000 inimese endoteelirakku (HUVEC) külvati  96-welli ja kasvatati 20%FBS söötmes.
+
+- Seejärel rakud sünkroniseeriti rakutsükli G0 faasis, näljutades neid 1%FBS sisaldavas söötmes.
+
+- 5%FBS ja VEGF lisamine vabastas rakud blokist ja indutseeris nad jagunema.
+
 ]
 .pull-right[
 
@@ -106,13 +105,14 @@ ggplot(vegf.sign,aes(timeBin,value,color=factor(Conc))) +
 .footer[Andmed: Anne Pink, Taavi Päll]
 
 ---
-### Signaaliülekande rada jõuab plasmamembraanist tuuma
+### Signaaliülekande rada viib plasmamembraanist tuuma
+
+Kasvufaktorite seostumine retseptoritele käivitab rakus kiire ja vahetu vastuse
 
 .pull-left[
 
-- Kasvufaktorite seostumine retseptoritele käivitab rakus kiire ja vahetu vastuse
-- Kasvufaktorite poolt indutseeritakse minutite jooksul kiirelt teatud geenide transkriptsioon
-- uute valkude sünteesi ei toimu/ei lähe vaja.
+- Kasvufaktorite poolt indutseeritakse minutite jooksul kiirelt teatud geenide transkriptsioon.
+- Uute valkude sünteesi ei toimu/ei lähe vaja.
 - Selliseid kiirelt ekspresseeritavaid geene nimetatakse **varajasteks geenideks (*immediate early genes*)**.
 ]
 
@@ -127,7 +127,7 @@ knitr::include_graphics("assets/img/1471-2199-5-13-2.jpg")
 ]
 
 ---
-### Varajasi geene on kokku kusagil sadakond.
+### Varajasi geene on kokku kusagil sadakond
 
 ```{r}
 tab <- readr::read_delim("Geen | Asukoht rakus | Funktsioon
@@ -142,25 +142,28 @@ $\\gamma$-aktiin | tsütoplasma | tsütoskelett
 tropomüosiin | tsütoplasma | tsütoskelett
 fibronektiin | rakuväline | ECM
 glükoositransporter | plasmamembraan | glükoosiimport
-JE | rakuväline | tsütokiin
-KC | rakuväline | tsütokiin", delim ="|")
+JE (MCP1/CCL2) | rakuväline | tsütokiin
+KC (CXCL1) | rakuväline | tsütokiin", delim ="|")
 tab <- knitr::kable(tab, format = 'html')
-kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
+kableExtra::kable_styling(tab, "striped", position = "left", font_size = 14)
 ```
 
 ---
 ### Signaalirajad on rakus ootel ning '*ready to fire*'
 
-- Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga tsükloheksimiidi (valgu sünteesi inhibiitori) juuresolekul toimub varajaste geenide transkriptsioon normaalselt, 
+- Seerumvabas söötmes arresteerunud rakkude indutseerimisel seerumiga tsükloheksimiidi (valgu sünteesi inhibiitori) juuresolekul toimub varajaste geenide transkriptsioon normaalselt,
+
 - viidates, et rakus istuvad seega mingid transkriptsioonifaktorid ja ootavad signaali mobiliseerumiseks.
+
 - Lisaks varaste geenide transkriptsiooni indutseerimisele
     - valgusünteesi kiirus suureneb (eIF4E ja eIF4G fosforüülimine)
     - vahetud muutused raku morfoloogias ja migratsioonis
 
+
 ---
 ### Lisaks muutustele geeniekspressioonis toimuvad muutused ka raku morfoloogias
 
-```{r}
+```{r, out.width=500, fig.align='center'}
 knitr::include_graphics("http://d247mjxbujv0d8.cloudfront.net/content/ajpheart/277/5/H2038/F4.large.jpg?width=800&height=600&carousel=1")
 ```
 
@@ -198,7 +201,7 @@ class: inverse, middle, center
 - Onkogeenselt aktiveeritud **Ras** (GTPaas) omab rakkudele samasugust transfomeerivat toimet kui **sis** (kasvufaktor) ja **erbB** (retseptor) onkovalgud
 - Kuidas need onkogeenid omavahel seotud on?
 
-```{r}
+```{r, out.width=500}
 knitr::include_graphics("assets/img/sis-erb-ras-pthwy.png")
 ```
 
@@ -250,7 +253,7 @@ Kaks alternatiivset hüpoteesi:
 
 ---
 ### SH domäänid vahendavad valkude relokatsiooni
-SH -- Src homoloogsed
+Shc, Grb2 ja Crk sisaldasid src onkogeenile homoloogseid domääne 
 
 .pull-left[
 
@@ -269,16 +272,13 @@ knitr::include_graphics("http://www.nature.com/nrm/journal/v2/n6/images/nrm0601_
 
 ]
 
+.footer[
+SH - Src homoloogsed.
+]
+
 ---
 ### Valkude dokkimiskohad
 
-.pull-right[
-
-- SH2/3 pasteeritud väga erinevatesse valgulistesse kontekstidesse
-    - puhtalt adaptorvalgud ilma katalüütiliste domäänideta (Shc, Grb2)
-    - katalüütilisi domääne sisaldavad valgud (Src)
- ]
- 
 .pull-left[
 
 ```{r}
@@ -286,6 +286,15 @@ knitr::include_graphics("http://www.nature.com/nrm/journal/v3/n3/images/nrm759-f
 ```
 
 ]
+
+
+.pull-right[
+
+- SH2/3 pasteeritud väga erinevatesse valgulistesse kontekstidesse
+    - puhtalt adaptorvalgud ilma katalüütiliste domäänideta (Shc, Grb2)
+    - katalüütilisi domääne sisaldavad valgud (Src)
+ ]
+
 ---
 ### RTK tsütoplasma domään sisaldab fosfo sidumissaite erinevatele valkudele
 
@@ -314,9 +323,9 @@ knitr::include_graphics("assets/img/1-s2.0-S0968000412001934-gr3.jpg")
 tab <- readr::read_delim("Domään | Ligand | Domääni kandvaid valke
 SH2 | fosfotürosiin | Src (kinaas), Grb2 (adapter), Shc (adapter), SHP2 (fosfataas), Cbl (ubikvitiini ligaas)
 PTB | fosfotürosiin | Shc, IRS-1 (insuliini RTK adapter)
-SH3 | proliinirikkad järestused | Src, Crk (adapter), Grb2, Cdc25 (CDK fosfataas), Bad (apoptoosi regulator), Raf (ser/thr kinaas), PKC (*protein kinase C*, ser/thr kinaas) 
+SH3 | proliinirikkad järestused | Src, Crk (adapter), Grb2, Cdc25 (CDK fosfataas), Bad (apoptoosi regulator), Raf (ser/thr kinaas), PKC (protein kinase C, ser/thr kinaas) 
 Bromo | atsetüleeritud lüsiin | P/CAF (transkriptsiooni kofaktor), kromatiinivalgud
-PH | fosfoinositool | PLC-$\\delta$ (fosfolipaas C), Akt/PKB (ser/thr kinaas)", delim ="|")
+PH | fosfoinositool | PLC-delta (fosfolipaas C), Akt/PKB (ser/thr kinaas)", delim ="|")
 tab <- knitr::kable(tab, format = 'html')
 kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 ```
@@ -325,7 +334,7 @@ kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 ---
 ### sevenless-sos signaaliraja biokeemiline alus
 
-```{r}
+```{r, out.width=500}
 knitr::include_graphics("assets/img/251347598805976.jpg")
 ```
 
@@ -336,7 +345,7 @@ knitr::include_graphics("assets/img/251347598805976.jpg")
 - türosiinkinaas retseptor-P $\rightarrow$ SH2-Shc-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
 - türosiinkinaas retseptor-P $\rightarrow$ SH2-Grb2-SH3 $\rightarrow$ proline-rich-Sos $\rightarrow$ Ras
 
-```{r}
+```{r, out.width=500}
 knitr::include_graphics("http://www.nature.com/nrm/journal/v13/n1/images/nrm3255-f1.jpg")
 ```
 
@@ -348,7 +357,7 @@ knitr::include_graphics("http://www.nature.com/nrm/journal/v13/n1/images/nrm3255
 - **Ras valgud toimivad GDP/GTP-sõltuvate lülititena.**
 - Ras-GDP: inaktiivne/Ras-GTP: aktiivne.
 - Normaalselt on rakkudes Ras seotud GDP-ga ja  mitteaktiivne.
-- Rakuvälised stiimulid (nt. TGF-$\alpha$) põhjustavad transientse Ras-i aktivatsiooni.
+- Rakuvälised stiimulid (nt. TGF-a) põhjustavad transientse Ras-i aktivatsiooni.
 
 ]  
 
@@ -371,7 +380,7 @@ Veel: [A comprehensive survey of Ras mutations in cancer](http://www.ncbi.nlm.ni
 
 - Ras toimib molekulaarse lülitina, mis aktiveeritakse GTP seostumisel
 - Ras-i sisse ja välja lülitamist reguleerivad GEF (*guanine nucleotide exchange factor*) ja GAP (*GTPase-activating protein*) valgud
-- GAP valgu seostumine tõstab Ras GTP hüdrolüüsi kiirust ~$10^{5}$ korda
+- GAP valgu seostumine tõstab Ras GTP hüdrolüüsi kiirust $10^5$ korda
 - Onkogeenselt aktiveeritud Ras mutantidel (nt. G12D, G12V) on GTP hüdrolüüs (väljalülitumine) rikutud.
 ]
 
@@ -390,9 +399,12 @@ knitr::include_graphics("assets/img/148-RasProtein_5p21.jpg")
 
 .pull-left[
 
-- Ras-i on kolm geeni: **K-Ras, H-Ras, N-Ras**
-- K-Ras-il on kaks splaissingu isovormi:K-Ras-4A/B
+- Ras-i on kolm geeni: **K-Ras, H-Ras, N-Ras**.
+
+- K-Ras-il on kaks splaissingu isovormi:K-Ras-4A/B.
+
 - Ras valkude G-domääni struktuurid on identsed, 
+
 - kuid C-terminaalsed hüpervariaablid domäänid erinevad.
 
 ]
@@ -430,7 +442,7 @@ kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibromiini** (Ras-GAP) somaatiliste deletsioonide: 14% glioblastoom, 13-14% melanoom, 8-10% kopsu adenokartsinoom, jne.
 
 ---
-### Ras aktivatsioonil vabaneb tema '*effector loop*'
+### Ras aktivatsioonil vabaneb tema 'effector loop'
 
 .pull-left[
 
@@ -442,7 +454,7 @@ Lisaks mutatsioonidele on alternatiivselt Ras aktiveeritud ka läbi **neurofibro
 
 .pull-right[
 
-```{r}
+```{r, out.width=250}
 knitr::include_graphics("assets/img/rasloop.jpg")
 ```
 
@@ -453,14 +465,16 @@ Pilt: doi:10.1038/nrm1229
 ]
 
 ---
-### Ras aktiveerib kolm põhilist signaalirada
+### Rasi kolm põhilist signaalirada
+Aktiveeritud Ras seotub ja aktiveerib oma effektorvalke, mis omakorda aktiveerivad signaalirajad.
 
 .pull-left[
 
-Aktiveeritud Ras seotub ja aktiveerib oma effektorvalke:
-- **Raf kinaas**
-- **Fosfatidüülinositool 3 kinaas, PI3K**
-- **RalGDS (Ral GEF)**
+1. **Raf kinaas**
+
+2. **Fosfatidüülinositool 3 kinaas, PI3K**
+
+3. **RalGDS (Ral GEF)**
 
 ```{r}
 knitr::include_graphics("http://ars.els-cdn.com/content/image/1-s2.0-S1535610814000816-gr1.jpg")
@@ -470,7 +484,7 @@ knitr::include_graphics("http://ars.els-cdn.com/content/image/1-s2.0-S1535610814
 
 .pull-right[
 
-```{r}
+```{r, out.width=250}
 knitr::include_graphics("assets/img/RasPI3K.jpg")
 ```
 
@@ -481,9 +495,11 @@ knitr::include_graphics("assets/img/RasPI3K.jpg")
 
 .pull-left[
 
-- Ras-Raf-MEK-ERK signaalirada
+- Ras-Raf-MEK-ERK signaalirada.
+
 - MAPK rada aktiveeritkse vastusena kasvufaktorite stimulatsioonile, 
-- Paljud MAPK raja substraadid on transkriptioonifacktorid (Ets, Elk-1 SAP-1) aga ka valgusüntees üle Mnk1 kinaasi vahendatud eIF4E aktivatsiooni
+
+- Paljud MAPK raja substraadid on transkriptsioonifaktorid (Ets, Elk-1 SAP-1) aga ka valgusüntees üle Mnk1 kinaasi vahendatud eIF4E aktivatsiooni
 
 ]
 
@@ -501,6 +517,7 @@ Image: clincancerres.aacrjournals.org
 
 ---
 ### MAPK raja onkogeenne aktivatsioon
+
 ```{r}
 knitr::include_graphics("http://www.nature.com/onc/journal/v26/n22/images/1210422f1.jpg")
 ```
@@ -514,19 +531,19 @@ FROM:Targeting the Raf-MEK-ERK mitogen-activated protein kinase cascade for the 
 
 .pull-left[
 
-```{r}
+```{r, out.width=250}
 knitr::include_graphics("assets/img/RasPI3K.jpg")
 ```
 
-Ras - PI3K$\gamma$ kompleks
+Ras - PI3K-gamma kompleks
 
 ]
 
 .pull-right[
 
 - Ras seostumisel PI3Kinaasile aktiveeritakse selle katalüütline domään. 
-- PI3K-$\gamma$ on lipiidkinaas. 
-- PI3K-$\gamma$ hakkab fosforüleerima plasmamembraanis olevaid fosfatidüül-inositool-4,5-difosfaate (PIP2). 
+- PI3K-gamma on lipiidkinaas. 
+- PI3K-gamma hakkab fosforüleerima plasmamembraanis olevaid fosfatidüül-inositool-4,5-difosfaate (PIP2). 
 
 ]
 
@@ -555,11 +572,11 @@ tab <- readr::read_delim("Bioloogiline effekt | Akt/PKB substraat | Funktsionaal
 Anti-apoptootiline |                    | 
                    | Bad (pro-apopootline) | inhibitsioon
                    | kaspaas-9 (pro-apopootline) | inhibitsioon
-                   | I$\\kappa$B kinaas (anti-apopootline) | aktivatsioon
+                   | I-kappa-B kinaas (anti-apopootline) | aktivatsioon
                    | FOXO1 TF (pro-apopootline) | inhibitsioon
                    | Mdm2 (anti-apopootline) | aktivatsioon
 Rakkude jagunemine |                     |       
-                   | GSK-3$\\beta$ (anti-proliferatiivne) |  inhibitsioon
+                   | GSK-3-beta (anti-proliferatiivne) |  inhibitsioon
                    | FOXO4 TF (anti-proliferatiivne) | inhibitsioon
                    | p21 (anti-proliferatiivne) | inhibitsioon
 Kasv (suurus) |            |
@@ -570,7 +587,7 @@ kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 
 
 ---
-# Genetic Alterations in the PI3K/Akt Pathway in Cancer
+### Genetic Alterations in the PI3K/Akt Pathway in Cancer
 
 ```{r}
 tab <- readr::read_delim("Gene | Type of Alteration	| Tumor Lineage
@@ -598,8 +615,15 @@ kableExtra::kable_styling(tab, "striped", position = "left", font_size = 12)
 .pull-left[
 
 - Ral-GDS(*guanine nucleotide dissociation stimulator*, GEF) aktiveerib RalA ja RalB GTPaasid
-- Ral effektorid on RalBP1 mis on Rac/Cdc42 GAP, Sec5 ja Exo84 mis on eksotsüst-kompleksi subühikud, Y-box transkriptsioonifaktor ZONAB
--  Ral rada reguleerib seega rakkude morfoloogiat, kasvufaktorite retseptorite endotsütoosi, vesikulaarset transporti  ja transkriptsioonifaktoreid
+- Ral effektorid on 
+    - RalBP1 mis on Rho perekonna GTPaaside Rac/Cdc42 GAP, 
+    - Sec5 ja Exo84 mis on eksotsüst-kompleksi subühikud, 
+    - Y-box transkriptsioonifaktor ZONAB
+-  Ral rada reguleerib seega 
+    - rakkude morfoloogiat, 
+    - kasvufaktorite retseptorite endotsütoosi, 
+    - vesikulaarset transporti ja 
+    - transkriptsioonifaktoreid.
 
 ]
 
@@ -612,13 +636,20 @@ knitr::include_graphics("http://www.nature.com/nrc/journal/v8/n2/images/nrc2296-
 ]
 
 ---
+class:inverse, center, middle
+
+# Lisaks MAPK rajale on ka rida teisi signaaliradu
+
+---
 ### Jak-STAT rada signaliseerib otse tuuma
 
 .pull-left[
 
-- Interferooni (IFN), erütropoietiini (EPO) ja trombopoietiini (TPO) retseptorid moodustavad mittekovalentse kompleksi Jak türosiin kinaasidega
-- Ligandi seostumisel rist-aktiveeritakse kinaasid ja fosforüleeritakse retseptorite sabad, millele seostuvad üle SH2 domäänide STAT transkriptsioonifaktorid
-- Seostunud STAT-ide fosforüleerimisel moodustavad need üle SH2 domäänide dimeeri ja translokeeruvad tuuma
+- Interferooni (IFN), erütropoietiini (EPO) ja trombopoietiini (TPO) retseptorid moodustavad mittekovalentse kompleksi Jak türosiin kinaasidega.
+
+- Ligandi seostumisel rist-aktiveeritakse kinaasid ja fosforüleeritakse retseptorite sabad, millele seostuvad üle SH2 domäänide STAT transkriptsioonifaktorid.
+
+- Seostunud STAT-ide fosforüleerimisel moodustavad need üle SH2 domäänide dimeeri ja translokeeruvad tuuma.
 
 ]
 
@@ -633,19 +664,24 @@ knitr::include_graphics("http://blogs.shu.edu/cancer/files/2014/08/figure_06_22.
 ---
 ### Jak-STAT vähis
 
-- STAT aktiveerivad muuseas mitmeid rakkude jagunemiseks, ellu jäämiseks ja angiogeneesiks oluliste geenide transkriptsiooni: myc, tsükliinid D2 ja D3 ja anti-apoptootiline Bcl-XL, VEGF 
-- JAK2 V617F mutatsioon multimüeloomides
-- STAT3 konstitutiivne aktivatsioon mitmetes kasvajates, sh. melanoomis, rinnakasvajates, pea-kaela lamerakulistes kartsinoomides
-- STAT3 aktivatsioon vahendatud ilmselt üle Src-i
+- STAT aktiveerivad muuseas mitmeid rakkude jagunemiseks, ellujäämiseks ja angiogeneesiks oluliste geenide transkriptsiooni: myc, tsükliinid D2 ja D3 ja anti-apoptootiline Bcl-XL, VEGF.
+
+- JAK2 V617F mutatsioon multimüeloomides.
+
+- STAT3 konstitutiivne aktivatsioon mitmetes kasvajates, sh. melanoomis, rinnakasvajates, pea-kaela lamerakulistes kartsinoomides.
+
 
 ---
 ### Integriini osalevad kasvufaktorite signalisatsioonis 
 
 .pull-left[
 
-- Aktiveeritud integriinidele seostunud FAK (*focal adhesion kinase*) fosforüleerimisel Src poolt tekivad FAK-ile SH2 dokkimiskohad, sh Grb2, Shc, PI3K, PLC-y
-- FAK seostunud Grb2 seob ka Sos-i on seega võimeline aktiveerima Ras-Raf rada 
-- Integriin vahendatud Ras aktivatsioon võib seletada miks transformatsiooniga kaasneb adhesioon sõltumatu kasv
+- Aktiveeritud integriinidele seostunud FAK (*focal adhesion kinase*).
+fosforüleerimisel Src poolt tekivad FAK-ile SH2 dokkimiskohad, sh Grb2, Shc, PI3K, PLC-gamma.
+
+- FAK seostunud Grb2 seob ka Sos-i on seega võimeline aktiveerima Ras-Raf rada.
+
+- Integriin vahendatud Ras aktivatsioon võib seletada miks transformatsiooniga kaasneb adhesioon sõltumatu kasv.
 ]
 
 .pull-right[
@@ -704,10 +740,10 @@ Tabel: [Wnt Signaling in Cancer](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC333
 
 .pull-left[
 
-- HH ligandid, imetajatel sonic hedgehog (SHH), Indian hedgehog (IHH) ja desert hedgehog (DHH) seostuvad patched 1 (PTCH1) retseptorile
-- Ligandi seostumine PTCH1-le vabastab smoothened (SMO) transmembraanse valgu inhibitsioonist 
-- SMO signalisatsioon vabastab GLI1, GLI2 ja GLI3 transkriptsioonifaktorid inhibitsioonist tuumorsuppressorvalgu suppressor of fused (SUFU) poolt 
-- GLI1, GLI2 ja GLI3 transporditakse tuuma
+- HH ligandid, imetajatel sonic hedgehog (SHH), Indian hedgehog (IHH) ja desert hedgehog (DHH) seostuvad patched 1 (PTCH1) retseptorile.
+- Ligandi seostumine PTCH1-le vabastab smoothened (SMO) transmembraanse valgu inhibitsioonist.
+- SMO signalisatsioon vabastab GLI1, GLI2 ja GLI3 transkriptsioonifaktorid inhibitsioonist tuumorsuppressorvalgu suppressor of fused (SUFU) poolt.
+- GLI1, GLI2 ja GLI3 transporditakse tuuma.
 
 ]
 
@@ -726,11 +762,14 @@ Pilt: [Hedgehog-Gli signaling in basal cell carcinoma and other skin cancers](ht
 ---
 ### Hedgehog rada vähis
 
-- Imetajatel on SUFU Gli aktiivsuse peamine regulator
-- Pärilikud SUFU mutatsioone on leitud medulloblastoomi, meningioomi patsientidel ja on seotud Gorlini sündroomiga, millega kaasneb kõrge risk saada basaalrakuline kartsinoom 
-- SUFU somaatilisi mutatsioone ja deleteerumist on leitud medulloblastoomides, kondrosarkoomides ja rhabdomüosarkoomides
+- Imetajatel on SUFU Gli aktiivsuse peamine regulator.
+
+- Pärilikud SUFU mutatsioone on leitud medulloblastoomi, meningioomi patsientidel ja on seotud Gorlini sündroomiga, millega kaasneb kõrge risk saada basaalrakuline kartsinoom.
+
+- SUFU somaatilisi mutatsioone ja deleteerumist on leitud medulloblastoomides, kondrosarkoomides ja rhabdomüosarkoomides.
 
 ---
+
 ### HH raja mutatsioonid nahavähkides
 
 ```{r}
@@ -757,7 +796,7 @@ Gli2|	Missense, nonsense, amplification|	Melanoma|	2.2-12.2
 Gli3|	Missense, splice site, amplification|	Melanoma|	3.3-7.2
 	|Missense, nonsense|	cSCC|	23", delim ="|")
 tab <- knitr::kable(tab, format = 'html')
-kableExtra::kable_styling(tab, "striped", position = "left", font_size = 10)
+kableExtra::kable_styling(tab, "striped", position = "left", font_size = 9)
 ```
 
 
@@ -799,6 +838,6 @@ class: inverse, middle
 ]
 
 .footer[
-GitHub repo: 
+GitHub repo: [tpall/Signaalirajad](https://github.com/tpall/Signaalirajad)
 ]
 
